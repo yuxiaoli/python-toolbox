@@ -1,0 +1,3 @@
+- supports a shell, commands can be dynamically passed
+- server is single threaded, would hang if received a bloking command
+- 

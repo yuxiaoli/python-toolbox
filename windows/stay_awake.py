@@ -84,7 +84,7 @@ def main():
 	passed_min = 0
 	while True:
 
-		print "{} min passed".format(passed_min)
+		print("{} min passed".format(passed_min))
 		
 		if (len(sys.argv) > 1):
 			if (passed_min >= int(sys.argv[1])):

@@ -1,0 +1,3 @@
+- basic network functionality
+- command is static, not support real time communication
+- 

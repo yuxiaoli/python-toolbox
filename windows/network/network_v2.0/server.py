@@ -5,7 +5,7 @@ An echo server that uses threads to handle multiple clients at a time.
 Entering any line of input at the terminal will exit the server.
 """
 # to do
-# 1. each client thread on the server needs to have a signature
+# 1. each client thread on the server needs to have a signature (use pid)
 # 2. cleanup for forced close - server side & client side
 
 import select
@@ -30,10 +30,10 @@ class Server:
 			self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			self.server.bind((self.host,self.port))
 			self.server.listen(5)
-		except socket.error, (value,message):
+		except (socket.error, (value,message)):
 			if self.server:
 				self.server.close()
-			print "Could not open socket: " + message
+			print("Could not open socket: " + message)
 			sys.exit(1)
 
 	def run(self):
@@ -43,7 +43,7 @@ class Server:
 		while running:
 			try:
 				c = Client(self.server.accept())
-				print 'Got connection from', c.address
+				print('Got connection from', c.address)
 				c.start()
 				self.threads.append(c)
 			except KeyboardInterrupt:
@@ -57,10 +57,10 @@ class Server:
 			c.join()
 
 class Client(threading.Thread):
-	def __init__(self,(client,address)):
+	def __init__(self, client_address):
 		threading.Thread.__init__(self)
-		self.client = client
-		self.address = address
+		self.client = client_address[0]
+		self.address = client_address[1]
 		self.size = 1024
 		# default root is C:\gateway
 		self.root = "C:\gateway"
@@ -79,7 +79,7 @@ class Client(threading.Thread):
 				# running = 0
 				
 		c = self.client
-		c.send('connected')
+		c.sendall('connected'.encode('ascii'))
 
 		client = str(self.address[0]) + "-" + str(self.address[1])
 		# print client
@@ -98,13 +98,13 @@ class Client(threading.Thread):
 			with open(cwd_buf, 'r') as f:
 				cwd = f.read()
 			# cwd = cwd[:-2]
-			print cwd
+			print(cwd)
 
 			os.chdir(cwd)
-			c.send(cwd)
+			c.send(cwd.encode('ascii'))
 			
-			cmd = c.recv(self.size)
-			print cmd
+			cmd = c.recv(self.size).decode('ascii')
+			print(cmd)
 			if cmd == "quit":
 				running = 0
 			else:
@@ -119,8 +119,9 @@ class Client(threading.Thread):
 				# to do - client hangs for any blocking call, need other process come in to kill this process and clean up
 				
 				# delete cmd.bat
+				# to do - if cmd.bat was not deleted by the cmd itself
 				os.remove("cmd.bat")
-				print "cmd.bat deleted"
+				print("cmd.bat deleted")
 
 				# modify cwd
 				# read
@@ -129,7 +130,7 @@ class Client(threading.Thread):
 					path = f.read()
 					drive = path[10].upper()
 					path = drive + ":" + path[11:-1].replace('/', '\\')
-					print path
+					print(path)
 				# then write
 				with open(cwd_buf, 'w') as f:
 					f.write(path)
@@ -137,14 +138,14 @@ class Client(threading.Thread):
 				# out = str(os.system(cmd))
 				with open(out_buf, 'r') as f:
 					out = f.read()
-				print out
+				print(out)
 				if not out:
 					out = "none"
 
 
-				c.send(out)
+				c.send(out.encode('ascii'))
 			
-		c.send('closing client on server')
+		c.send('closing client on server'.encode('ascii'))
 		# delete client folder
 		shutil.rmtree(client_path)
 		c.close()

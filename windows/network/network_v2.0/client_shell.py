@@ -10,21 +10,21 @@ def main():
 	
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.connect((host, port))
-	print s.recv(1024)
+	print(s.recv(1024).decode('ascii'))
 
 	while True:
-		cwd = s.recv(1024)
-		cmd = raw_input("[" + host + "]" + cwd + ">")
-		s.send(cmd)
+		cwd = s.recv(1024).decode('ascii')
+		cmd = input("[" + host + "]" + cwd + ">")
+		s.send(cmd.encode('ascii'))
 		if cmd == "quit":
 			break
 		else:
-			out = s.recv(1024)
+			out = s.recv(1024).decode('ascii')
 			if (out != "none"):
-				print out
+				print(out)
 
 
-	print s.recv(1024)
+	print(s.recv(1024).decode('ascii'))
 	#print s.recv(1024)
 
 	s.close
