@@ -1,0 +1,2 @@
+- compatibal with windows 7
+- 
