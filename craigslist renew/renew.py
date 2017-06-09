@@ -4,7 +4,7 @@ import argparse
 
 def renew(num_attempts):
 	renew_counter = 0;	# posts renewed
-	response_time = 1;
+	response_time = 2;
 	attempt = 0;
 	has_next = True;
 
