@@ -158,7 +158,6 @@ def main():
 			# close current tab and startover
 			pyautogui.hotkey('ctrl', 'w')
 			pyautogui.time.sleep(1)
-			pyautogui.time.sleep(1)
 			retry = True
 			continue	
 
