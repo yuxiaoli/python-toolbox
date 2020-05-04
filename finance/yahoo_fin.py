@@ -12,6 +12,7 @@ requests_html
 
 pip install requests_html
 pip install pandas
+pip install yahoo_fin
 '''
 
 # import stock_info module from yahoo_fin
