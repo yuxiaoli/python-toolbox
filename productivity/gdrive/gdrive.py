@@ -20,12 +20,15 @@ def get_sheet(client, filename, sheetname):
 	
 def get_all_sheets(client, filename):
 	# Return a list of all sheets in the Google Sheets file
+	return client.open(filename).worksheets()
 	
-def export_csv(worksheet, outfname):
+def export_csv(worksheet, filename):
 	# Export values in the current sheet to a csv file
+	return
 	
-def export_xlsx(file, outfname):
+def export_xlsx(file, filename):
 	# Export all sheets into an Excel file
+	return
 
 if __name__ == "__main__":
 	client = login('client_secret.json')
@@ -37,4 +40,10 @@ if __name__ == "__main__":
 	print(list_of_hashes)
 	
 	#sheet.update_cell(3, 1, "hey")
+	
+	sheets = get_all_sheets(client, "Asset Allocation")
+	for sheet in sheets:
+		print(sheet.title)
+		#contents = sheet.get_all_records()
+		#print(contents)
 	
