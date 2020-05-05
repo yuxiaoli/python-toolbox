@@ -26,7 +26,7 @@ def export_csv(worksheet, filename):
 	# Export values in the current sheet to a csv file
 	return
 	
-def export_xlsx(file, filename):
+def export_xlsx(worksheets, filename):
 	# Export all sheets into an Excel file
 	return
 
