@@ -17,6 +17,15 @@ def get_sheet(client, filename, sheetname):
 	# Find a workbook by name and open the first sheet
 	# Make sure you use the right name here.
 	return client.open(filename).worksheet(sheetname)
+	
+def get_all_sheets(client, filename):
+	# Return a list of all sheets in the Google Sheets file
+	
+def export_csv(worksheet, outfname):
+	# Export values in the current sheet to a csv file
+	
+def export_xlsx(file, outfname):
+	# Export all sheets into an Excel file
 
 if __name__ == "__main__":
 	client = login('client_secret.json')
