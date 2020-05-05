@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../..')
 
-from finance.yahoo_fin import *
+from finance.yahoo_finance import *
 from productivity.gdrive import gdrive
 
 
