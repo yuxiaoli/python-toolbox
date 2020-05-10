@@ -25,6 +25,7 @@ from pytz import timezone
 from yahoo_earnings_calendar import YahooEarningsCalendar
 
 
+
 def get_stock_price(ticker):
 	return si.get_live_price(ticker)
 

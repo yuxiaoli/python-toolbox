@@ -111,7 +111,7 @@ def update_gspread(arg):
 	
 	fname = "Asset Allocation"
 	
-	client = gdrive.login("client_secret.json")
+	client = gdrive.gspread_login("client_secret.json")
 	
 	if (arg == "daily"):
 		for sheetname in sheets:
