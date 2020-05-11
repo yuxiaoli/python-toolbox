@@ -3,21 +3,21 @@ sys.path.append('../..')
 
 from finance.yahoo_finance import *
 from productivity.gdrive import gdrive
-
+		
 
 def get_col_num(col):
 	return ord(col) - 96
 
-def update_daily(sheet, tickers):
+def update_daily(gspread, tickers):
 	for ticker in tickers:
 		price = get_stock_price(ticker)
 		print(price)
 		if (str(price).lower() != "nan"):
 			row = tickers[ticker][0]
 			col = get_col_num(tickers[ticker][1])
-			sheet.update_cell(row, col, price)
+			gspread.updateCell(row, col, price)
 		
-def update_weekly(sheet, tickers):
+def update_weekly(gspread, tickers):
 	for ticker in tickers:
 		col = get_col_num(tickers[ticker][1])
 		quote_table = get_quote_table(ticker)
@@ -26,11 +26,11 @@ def update_weekly(sheet, tickers):
 		
 		if (str(quote_table["Market Cap"]).lower() != "nan"):
 			row = 1
-			sheet.update_cell(row, col, quote_table["Market Cap"])
+			gspread.updateCell(row, col, quote_table["Market Cap"])
 		
 		if (str(quote_table["PE Ratio (TTM)"]).lower() != "nan"):
 			row = 2
-			sheet.update_cell(row, col, quote_table["PE Ratio (TTM)"])
+			gspread.updateCell(row, col, quote_table["PE Ratio (TTM)"])
 		
 
 def update_gspread(arg):
@@ -111,22 +111,23 @@ def update_gspread(arg):
 	
 	fname = "Asset Allocation"
 	
-	client = gdrive.gspread_login("client_secret.json")
+	gspread = gdrive.GSpread("client_secret.json")
 	
 	if (arg == "daily"):
 		for sheetname in sheets:
-			sheet = gdrive.get_sheet(client, fname, sheetname)
-			update_daily(sheet, sheets[sheetname])
+			gspread.setSheet(fname, sheetname)
+			update_daily(gspread, sheets[sheetname])
 				
 	elif (arg == "weekly"):
 		for sheetname in sheets:
 			if (sheetname == "Main"):
 				continue
-			sheet = gdrive.get_sheet(client, fname, sheetname)
-			update_weekly(sheet, sheets[sheetname])
+			gspread.setSheet(fname, sheetname)
+			update_weekly(gspread, sheets[sheetname])
 		
 	
 
 if __name__ == "__main__":
 	arg = sys.argv[1]
 	update_gspread(arg)
+	
