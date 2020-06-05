@@ -3,12 +3,110 @@ sys.path.append('../..')
 
 from finance.yahoo_finance import *
 from productivity.gdrive import gdrive
+from productivity.calendar import gcalendar
+
+# input - uppercase col
+def col_char_to_num(col_char):
+	return ord(col_char) - ord('A') + 1
+
+# return - uppercase col
+def num_to_col_char(num):
+	return chr(num + ord('A') - 1)
 		
+def get_col_num(col_str):
+	col_num = 0
+	for power, char in enumerate(reversed(col_str.upper())):
+		col_num += col_char_to_num(char) * (26 ** power)
+		
+	return col_num;
 
-def get_col_num(col):
-	return ord(col) - 96
+def get_col_str(num):
+	col_str = "";
+	remainder = 0;
+	quotient = num;
+	while (quotient != 0):
+		remainder = (quotient - 1) % 26
+		quotient = (quotient - 1) // 26
+		col_str = num_to_col_char(remainder + 1) + col_str
+		
+	return col_str
+	
+def get_next_col(col_str):
+	col_num = get_col_num(col_str)
+	col_num = col_num + 1
+	return get_col_str(col_num)
+	
+def is_future_datetime(isodatetime_str):
+	isodatetime = datetime.datetime.fromisoformat(isodatetime_str)
+	est = timezone('US/Eastern').localize(isodatetime);
+	utc = est.astimezone(timezone('UTC'))
+	
+	isodatetime = utc.replace(tzinfo=None)
+	now = datetime.datetime.utcnow()
+	
+	if (isodatetime > now):
+		return True
+	return False
 
-def update_daily(gspread, tickers):
+def create_event_discription(company_name, next_earnings_date, marketcap, pe):
+	discription = company_name + "'s estimated earnings date is " + next_earnings_date.strftime("%B %d, %Y at %H:%M EST\n")
+	discription = discription + "Market Cap: " + marketcap + "\n" + "P/E: " + pe;
+	return discription
+	
+def update_daily(gspread, calendar):
+	calendar_id = "5pr0h98mkvafbd7qp9nt4s6hdg@group.calendar.google.com"
+	
+	row = 3
+	col = 'E'
+	ticker = "abc"
+	while (ticker):
+		ticker = gspread.getCell(row, get_col_num(col))
+		yahoo_ticker = get_yahoo_ticker(ticker)
+		print(yahoo_ticker)
+		if (yahoo_ticker):
+			print(get_stock_price(yahoo_ticker))
+			
+			next_earnings_date = get_next_earnings_date(yahoo_ticker)
+			print(next_earnings_date)
+			
+			if (not next_earnings_date):
+				col = get_next_col(col)
+				continue
+			next_earnings_date_str = next_earnings_date.replace(microsecond=0).isoformat(' ')
+			
+			company_name = gspread.getCell(2, get_col_num(col)) + " (" + ticker + ")"
+			marketcap = gspread.getCell(4, get_col_num(col))
+			pe = gspread.getCell(5, get_col_num(col))
+			discription = create_event_discription(company_name, next_earnings_date, marketcap, pe)
+			print(discription)
+			
+			cell_value = gspread.getCell(12, get_col_num(col))
+			if (cell_value):
+				if (cell_value == next_earnings_date_str):
+					col = get_next_col(col)
+					continue
+					
+				if (is_future_datetime(cell_value)):
+					# Delete event in calendar
+					event_id = calendar.findEvent(calendar_id, company_name)
+					calendar.deleteEvent(calendar_id, event_id)
+				else:
+					gspread.updateCell(11, get_col_num(col), cell_value)
+					
+			gspread.updateCell(12, get_col_num(col), next_earnings_date_str)
+			
+			# Create event in calendar
+			calendar.createEvent(calendar_id,
+							next_earnings_date.isoformat(),
+							company_name,
+							1,
+							discription,
+							"",
+							"America/New_York")
+			
+		col = get_next_col(col)
+	return
+
 	for ticker in tickers:
 		price = get_stock_price(ticker)
 		print(price)
@@ -16,118 +114,46 @@ def update_daily(gspread, tickers):
 			row = tickers[ticker][0]
 			col = get_col_num(tickers[ticker][1])
 			gspread.updateCell(row, col, price)
-		
-def update_weekly(gspread, tickers):
-	for ticker in tickers:
-		col = get_col_num(tickers[ticker][1])
-		quote_table = get_quote_table(ticker)
-		print(quote_table["Market Cap"])
-		print(quote_table["PE Ratio (TTM)"])
-		
-		if (str(quote_table["Market Cap"]).lower() != "nan"):
-			row = 1
-			gspread.updateCell(row, col, quote_table["Market Cap"])
-		
-		if (str(quote_table["PE Ratio (TTM)"]).lower() != "nan"):
-			row = 2
-			gspread.updateCell(row, col, quote_table["PE Ratio (TTM)"])
-		
 
-def update_gspread(arg):
+def update_gspread():
 	#print(get_stock_price('aapl'))
 	
 	main = {
-		"^dji": (2, 'i'),
-		"^ixic": (3, 'i'),
-		"^gspc": (4, 'i')
+		"^dji": (3, 'l'),
+		"^ixic": (4, 'l'),
+		"^gspc": (5, 'l')
 	}
 	
-	row = 4
-	airlines = {
-		"ual": (row, 'd'),
-		"dal": (row, 'e'),
-		"aal": (row, 'f'),
-		"alk": (row, 'g'),
-		"luv": (row, 'h'),
-		"save": (row, 'i'),
-		"ba": (row, 'j')
-	}
+	ticker_row = 3
+	price_row = 6
+	col = 'e'
 	
-	hotels = {
-		"mgm": (row, 'd'),
-		"hlt": (row, 'e'),
-		"mar": (row, 'f')
-	}
+	sheets = [
+		"Aviation",
+		"Hotel",
+		"Retail",
+		"Fashion",
+		"Tech",
+		"Crude Oil",
+		"Bank",
+		"Investment",
+		"Delivery",
+		"Pharmaceutical"
+	]
 	
-	retails = {
-		"sbux": (row, 'd'),
-		"dis": (row, 'e'),
-		"stz": (row, 'f'),
-		"ko": (row, 'g'),
-		"v": (row, 'h')
-	}
-	
-	tech = {
-		"amzn": (row, 'd'),
-		"googl": (row, 'e'),
-		"fb": (row, 'f'),
-		"sq": (row, 'g'),
-		"yelp": (row, 'h'),
-		"tsla": (row, 'i'),
-		"snap": (row, 'j'),
-		"nvda": (row, 'k'),
-		"hubs": (row, 'l')
-	}
-	
-	crude = {
-		"vlo": (row, 'd'),
-		"cvx": (row, 'e'),
-		"rds-b": (row, 'f'),
-		"epd": (row, 'g'),
-		"psx": (row, 'h'),
-		"bp": (row, 'i'),
-		"ceo": (row, 'j'),
-		"pba": (row, 'k'),
-		"enb": (row, 'l'),
-		"su": (row, 'm')
-	}
-	
-	finance = {
-		"bx": (row, 'd'),
-		"cg": (row, 'e'),
-		"kkr": (row, 'f'),
-		"apo": (row, 'g')
-	}
-	
-	sheets = {
-		"Main": main,
-		"Airlines": airlines,
-		"Hotels": hotels,
-		"Retails": retails,
-		"Tech": tech,
-		"Crude Oil": crude,
-		"Finance": finance
-	}
-	
-	fname = "Asset Allocation"
+	fname = "Copy of Asset Allocation"
 	
 	gspread = gdrive.GSpread("client_secret.json")
+	calendar = gcalendar.GCalendar("client_secret.json")
 	
-	if (arg == "daily"):
-		for sheetname in sheets:
-			gspread.setSheet(fname, sheetname)
-			update_daily(gspread, sheets[sheetname])
-				
-	elif (arg == "weekly"):
-		for sheetname in sheets:
-			if (sheetname == "Main"):
-				continue
-			gspread.setSheet(fname, sheetname)
-			update_weekly(gspread, sheets[sheetname])
-		
+	#if (arg == "daily"):
+	for sheetname in sheets:
+		print(sheetname)
+		gspread.setSheet(fname, sheetname)
+		update_daily(gspread, calendar)
 	
 
 if __name__ == "__main__":
-	arg = sys.argv[1]
-	update_gspread(arg)
+	#arg = sys.argv[1]
+	update_gspread()
 	

@@ -43,12 +43,17 @@ class GSpread:
 	def getClient(self):
 		return self.client
 	
-	def setSheet(self, filename, sheetname):
+	def setSheet(self, filename, sheetname, depth=0):
+		if (depth == 3):
+			print("Cannot open worksheet")
+			return;
+	
 		try:
 			self.worksheet = self.client.open(filename).worksheet(sheetname)
 		except:
-			print("Cannot open worksheet")
-			return;
+			time.sleep(self.duration)
+			self.setSheet(filename, sheetname, depth+1)
+			
 			
 	def getSheet(self):
 		return self.worksheet
@@ -58,6 +63,21 @@ class GSpread:
 		list_of_hashes = self.sheet.get_all_records()
 		print(list_of_hashes)
 		
+	def getCell(self, row, col, depth=0):
+		if (self.worksheet == None):
+			print("Worksheet is not set")
+			return
+			
+		if (depth == 3):
+			print("Cell cannot be read")
+			return
+			
+		try:
+			return self.worksheet.cell(row, col).value
+		except:
+			time.sleep(self.duration)
+			return self.getCell(row, col, depth+1)
+	
 	def updateCell(self, row, col, val, depth=0):
 		if (self.worksheet == None):
 			print("Worksheet is not set")

@@ -261,15 +261,14 @@ class GCalendar:
 	
 if __name__ == "__main__":
 	gcalendar = GCalendar("client_secret.json")
-	gcalendar.dialogue()
-	'''
-	calendar_id = "5pr0h98mkvafbd7qp9nt4s6hdg@group.calendar.google.com"
+	# gcalendar.dialogue()
 	
+	calendar_id = "5pr0h98mkvafbd7qp9nt4s6hdg@group.calendar.google.com"
+	'''
 	gcalendar.createEvent(calendar_id,
-							"2020-05-10 11:59:00",
+							"2020-06-10 11:59:00",
 							"Test Meeting using CreateFunction Method",
 							0.5,
-							"This is a test description"
 							"Test Description",
 							"",
 							"America/New_York")
