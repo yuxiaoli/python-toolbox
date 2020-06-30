@@ -134,8 +134,8 @@ def update_gspread():
 		"Retail",
 		"Fashion",
 		"Tech",
-		"Crude Oil",
-		"Bank",
+		"Petroleum",
+		"Banking",
 		"Investment",
 		"Delivery",
 		"Pharmaceutical"
