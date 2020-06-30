@@ -25,7 +25,7 @@ class GSpread:
 	for consumer 'project_number:593539420221'."
 	'''
 	duration = 100 # in seconds
-	depthMax = 3
+	#depthMax = 3
 	
 	def __init__(self, filename):
 		self.login(filename)
@@ -44,15 +44,11 @@ class GSpread:
 	def getClient(self):
 		return self.client
 	
-	def setSheet(self, filename, sheetname, depth=1):
-		if (depth > self.depthMax):
-			print("Cannot open worksheet")
-			return
-	
+	def setSheet(self, filename, sheetname, depth=1, depthMax=3):
 		try:
 			self.worksheet = self.client.open(filename).worksheet(sheetname)
 		except:
-			if (depth == 0):
+			if (depth == depthMax):
 				print("Cannot open worksheet")
 				return
 			time.sleep(self.duration)
@@ -67,37 +63,29 @@ class GSpread:
 		list_of_hashes = self.sheet.get_all_records()
 		print(list_of_hashes)
 		
-	def getCell(self, row, col, depth=1):
+	def getCell(self, row, col, depth=1, depthMax=3):
 		if (self.worksheet == None):
 			print("Worksheet is not set")
-			return
-			
-		if (depth > self.depthMax):
-			print("Cell cannot be read")
 			return
 			
 		try:
 			return self.worksheet.cell(row, col).value
 		except:
-			if (depth == 0):
+			if (depth == depthMax):
 				print("Cell cannot be read")
 				return
 			time.sleep(self.duration)
 			return self.getCell(row, col, depth+1)
 	
-	def updateCell(self, row, col, val, depth=1):
+	def updateCell(self, row, col, val, depth=1, depthMax=3):
 		if (self.worksheet == None):
 			print("Worksheet is not set")
-			return
-			
-		if (depth > self.depthMax):
-			print("Cell cannot be updated")
 			return
 			
 		try:
 			self.worksheet.update_cell(row, col, val);
 		except:
-			if (depth == 0):
+			if (depth == depthMax):
 				print("Cell cannot be updated")
 				return
 			time.sleep(self.duration)
