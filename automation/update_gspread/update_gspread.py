@@ -63,12 +63,14 @@ def update_daily(gspread):
 		print(yahoo_ticker)
 		if (yahoo_ticker):
 			# Update 1y target
-			target = 
-			if (str(price).lower() != "nan"):
+			target = get_1y_target(yahoo_ticker)
+			print(target)
+			if (target and (str(target).lower() != "nan")):
 				gspread.updateCell(12, get_col_num(col), target)
 			
 			# Update analyst rating
-			rating = 
+			rating = get_analyst_rating(yahoo_ticker)
+			print(rating)
 			if (rating != 6):
 				gspread.updateCell(13, get_col_num(col), rating)
 			
@@ -141,7 +143,7 @@ def update_weekly(gspread, calendar):
 			col = get_col_num(tickers[ticker][1])
 			gspread.updateCell(row, col, price)
 
-def update_gspread():
+def update_gspread(arg):
 	#print(get_stock_price('aapl'))
 	
 	main = {
@@ -187,6 +189,6 @@ def update_gspread():
 	
 
 if __name__ == "__main__":
-	#arg = sys.argv[1]
-	update_gspread()
+	arg = sys.argv[1]
+	update_gspread(arg)
 	

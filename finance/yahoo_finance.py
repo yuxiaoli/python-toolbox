@@ -23,7 +23,7 @@ pip install yahoo_earnings_calendar
 import datetime
 from pytz import timezone
 from yahoo_earnings_calendar import YahooEarningsCalendar
-
+import requests
 
 
 def get_stock_price(ticker):
@@ -51,6 +51,11 @@ quote_table = {
 '''
 def get_quote_table(ticker):
 	return si.get_quote_table(ticker)
+	
+def get_1y_target(ticker):
+	key = '1y Target Est'
+	target = si.get_quote_table(ticker).get(key, None)
+	return target
 	
 def get_next_earnings_date(ticker):
 	yec = YahooEarningsCalendar()
@@ -92,6 +97,50 @@ def get_next_earnings_date(ticker):
 	# print(next_earnings_datetime)
 	return next_earnings_datetime
 
+'''
+1 - strong buy
+2 - buy
+3 - hold
+4 - sell
+5 - hard-sell
+6 - n/a
+'''
+def get_analyst_rating(ticker):
+	lhs_url = 'https://query2.finance.yahoo.com/v10/finance/quoteSummary/'
+	rhs_url = '?formatted=true&crumb=swg7qs5y9UP&lang=en-US&region=US&' \
+			  'modules=upgradeDowngradeHistory,recommendationTrend,' \
+			  'financialData,earningsHistory,earningsTrend,industryTrend&' \
+			  'corsDomain=finance.yahoo.com'
+			  
+	url =  lhs_url + ticker + rhs_url
+	r = requests.get(url)
+	if not r.ok:
+		recommendation = 6
+	try:
+		result = r.json()['quoteSummary']['result'][0]
+		recommendation = result['financialData']['recommendationMean']['fmt']
+	except:
+		recommendation = 6
+		
+	return recommendation
+
+'''
+1 - weak
+2 - normal
+3 - strong
+4 - very strong
+5 - n/a
+est_table = {
+	'Short Term Outlook': ('Bearish', 3),
+	'Mid Term Outlook': ('Bullish', 2),
+	'Long Term Outlook': ('Bullish', 2),
+	'Support': 318.73,
+	'Resistance': 358.87,
+	'Stop Loss': 320.28704}
+'''
+def get_est_table(ticker):
+	return;
+	
 yahoo_tickers = {
 	".DJI":		"^DJI",
 	".IXIC":	"^IXIC",
