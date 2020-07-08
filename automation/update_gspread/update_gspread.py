@@ -52,8 +52,34 @@ def create_event_discription(company_name, next_earnings_date, marketcap, pe):
 	discription = company_name + "'s estimated earnings date is " + next_earnings_date.strftime("%B %d, %Y at %H:%M EST\n")
 	discription = discription + "Market Cap: " + marketcap + "\n" + "P/E: " + pe;
 	return discription
+
+def update_daily(gspread):
+	row = 3
+	col = 'E'
+	ticker = "abc"
+	while (ticker):
+		ticker = gspread.getCell(row, get_col_num(col))
+		yahoo_ticker = get_yahoo_ticker(ticker)
+		print(yahoo_ticker)
+		if (yahoo_ticker):
+			# Update 1y target
+			target = 
+			if (str(price).lower() != "nan"):
+				gspread.updateCell(12, get_col_num(col), target)
+			
+			# Update analyst rating
+			rating = 
+			if (rating != 6):
+				gspread.updateCell(13, get_col_num(col), rating)
+			
+			# Update short, mid, long term outlook
+			
+			# Update support, resistance, resistance
+		
+		col = get_next_col(col)
 	
-def update_daily(gspread, calendar):
+	
+def update_weekly(gspread, calendar):
 	calendar_id = "5pr0h98mkvafbd7qp9nt4s6hdg@group.calendar.google.com"
 	
 	row = 3
@@ -151,11 +177,13 @@ def update_gspread():
 	gspread = gdrive.GSpread("client_secret.json")
 	calendar = gcalendar.GCalendar("client_secret.json")
 	
-	#if (arg == "daily"):
 	for sheetname in sheets:
 		print(sheetname)
 		gspread.setSheet(fname, sheetname)
-		update_daily(gspread, calendar)
+		if (arg == "daily"):
+			update_daily(gspread)
+		elif (arg == "weekly"):
+			update_weekly(gspread, calendar)
 	
 
 if __name__ == "__main__":
