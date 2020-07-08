@@ -80,7 +80,7 @@ def update_daily(gspread, calendar):
 			discription = create_event_discription(company_name, next_earnings_date, marketcap, pe)
 			print(discription)
 			
-			cell_value = gspread.getCell(12, get_col_num(col))
+			cell_value = gspread.getCell(21, get_col_num(col))
 			if (cell_value):
 				if (cell_value == next_earnings_date_str):
 					col = get_next_col(col)
@@ -91,9 +91,9 @@ def update_daily(gspread, calendar):
 					event_id = calendar.findEvent(calendar_id, company_name)
 					calendar.deleteEvent(calendar_id, event_id)
 				else:
-					gspread.updateCell(11, get_col_num(col), cell_value)
+					gspread.updateCell(20, get_col_num(col), cell_value)
 					
-			gspread.updateCell(12, get_col_num(col), next_earnings_date_str)
+			gspread.updateCell(21, get_col_num(col), next_earnings_date_str)
 			
 			# Create event in calendar
 			calendar.createEvent(calendar_id,
@@ -130,6 +130,7 @@ def update_gspread():
 	
 	sheets = [
 		"Aviation",
+		"Cruise",
 		"Hotel",
 		"Retail",
 		"Fashion",
@@ -138,10 +139,14 @@ def update_gspread():
 		"Banking",
 		"Investment",
 		"Delivery",
-		"Pharmaceutical"
+		"Pharmaceutical",
+		"Machine",
+		"Arms",
+		"Construction",
+		"Others"
 	]
 	
-	fname = "Copy of Asset Allocation"
+	fname = "portfolio_public"
 	
 	gspread = gdrive.GSpread("client_secret.json")
 	calendar = gcalendar.GCalendar("client_secret.json")
