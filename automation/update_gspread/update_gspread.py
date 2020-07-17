@@ -74,9 +74,43 @@ def update_daily(gspread):
 			if (rating != 6):
 				gspread.updateCell(13, get_col_num(col), rating)
 			
-			# Update short, mid, long term outlook
-			
-			# Update support, resistance, resistance
+			est_table = get_est_table(yahoo_ticker)
+			print(est_table)
+			if (est_table):
+				# Update valuation and discount
+				valuation = est_table['Valuation']
+				if (valuation):
+					gspread.updateCell(14, get_col_num(col), valuation.lower())
+				
+				discount = est_table['Discount']
+				if (discount):
+					gspread.updateCell(15, get_col_num(col), discount)
+				
+				# Update short, mid, long term outlook
+				shortTermOutlook = est_table.get('Short Term Outlook')
+				if (shortTermOutlook):
+					gspread.updateCell(16, get_col_num(col), shortTermOutlook)
+				
+				intermediateTermOutlook = est_table.get('Mid Term Outlook')
+				if (intermediateTermOutlook):
+					gspread.updateCell(17, get_col_num(col), intermediateTermOutlook)
+				
+				longTermOutlook = est_table.get('Long Term Outlook')
+				if (longTermOutlook):
+					gspread.updateCell(18, get_col_num(col), longTermOutlook)
+				
+				# Update support, resistance, resistance
+				support = est_table['Support']
+				if (support):
+					gspread.updateCell(19, get_col_num(col), float(support))
+				
+				resistance = est_table['Resistance']
+				if (resistance):
+					gspread.updateCell(20, get_col_num(col), float(resistance))
+				
+				stopLoss = est_table['Stop Loss']
+				if (stopLoss):
+					gspread.updateCell(21, get_col_num(col), float(stopLoss))
 		
 		col = get_next_col(col)
 	
