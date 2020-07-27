@@ -1,0 +1,562 @@
+Aviation
+UAL
+41.53
+2.50
+{'Valuation': 'Undervalued', 'Discount': 0.64, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 31.8, 'Resistance': 88.91, 'Stop Loss': 23.6913}
+DAL
+35.47
+2.20
+{'Valuation': 'Undervalued', 'Discount': 0.6, 'Short Term Outlook': -2, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 22.53, 'Resistance': 57.519, 'Stop Loss': 18.318148}
+AAL
+12.47
+3.30
+{'Valuation': 'Undervalued', 'Discount': 0.34, 'Short Term Outlook': 3, 'Mid Term Outlook': 1, 'Long Term Outlook': -1, 'Support': 11.65, 'Resistance': 28.745, 'Stop Loss': 5.503177}
+ALK
+44.4
+2.00
+{'Valuation': 'Near Fair Value', 'Discount': -0.09, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -1, 'Support': 35.74, 'Resistance': 65.38, 'Stop Loss': 29.043011}
+LUV
+41.18
+2.30
+{'Valuation': 'Near Fair Value', 'Discount': 0.06, 'Short Term Outlook': -2, 'Long Term Outlook': -2, 'Support': 29.65, 'Resistance': 53.44, 'Stop Loss': 28.585452}
+SAVE
+17.92
+2.90
+{'Valuation': 'Undervalued', 'Discount': 0.71, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 16.7298, 'Resistance': 37.7, 'Stop Loss': 11.682941}
+BA
+177.86
+2.90
+{'Valuation': 'Overvalued', 'Discount': None, 'Mid Term Outlook': 4, 'Long Term Outlook': -3, 'Support': 131.29, 'Resistance': 355.04, 'Stop Loss': 150.172564}
+EADSY
+nan
+6
+None
+JETS
+None
+6
+None
+
+Cruise
+NCLH
+16.85
+2.60
+{'Valuation': 'Undervalued', 'Discount': 0.72, 'Short Term Outlook': -4, 'Mid Term Outlook': 1, 'Long Term Outlook': -2, 'Support': 11.46, 'Resistance': 56.78, 'Stop Loss': 7.001543}
+RCL
+60.0
+2.60
+{'Valuation': 'Undervalued', 'Discount': 0.37, 'Short Term Outlook': 1, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 50.36, 'Resistance': 118.8, 'Stop Loss': 32.115636}
+
+Hotel
+HLT
+79.0
+2.60
+{'Valuation': 'Overvalued', 'Discount': -0.11, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': 1, 'Support': 71.935, 'Resistance': 93.65, 'Stop Loss': 71.913335}
+MAR
+95.1
+2.80
+{'Valuation': 'Near Fair Value', 'Discount': -0.03, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 86.42, 'Resistance': 123.59, 'Stop Loss': 70.318941}
+MGM
+17.74
+2.80
+{'Valuation': 'Undervalued', 'Discount': 0.19, 'Short Term Outlook': -3, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 14.06, 'Resistance': 27.67, 'Stop Loss': 13.309836}
+WYNN
+98.87
+1.90
+{'Valuation': 'Overvalued', 'Discount': -0.34, 'Short Term Outlook': -3, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 73.29, 'Resistance': 116.99, 'Stop Loss': 63.676383}
+
+Retail
+STZ
+205.0
+2.20
+{'Valuation': 'Near Fair Value', 'Discount': -0.0, 'Short Term Outlook': -4, 'Mid Term Outlook': 2, 'Support': 172.62, 'Resistance': 190.58, 'Stop Loss': 168.927592}
+KO
+53.45
+2.00
+{'Valuation': 'Overvalued', 'Discount': -0.18, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 46, 'Resistance': 54.33, 'Stop Loss': 43.767771}
+PEP
+146.86
+2.20
+{'Valuation': 'Overvalued', 'Discount': -0.19, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 134.3392, 'Resistance': 137.11, 'Stop Loss': 127.484271}
+MNST
+71.93
+2.20
+{'Valuation': 'Near Fair Value', 'Discount': 0.05, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 58.045, 'Resistance': 75.76, 'Stop Loss': 70.905935}
+YCBD
+4.27
+2.30
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 0.8201, 'Resistance': 3.995, 'Stop Loss': 1.996572}
+MO
+48.57
+2.10
+{'Valuation': 'Overvalued', 'Discount': -0.12, 'Short Term Outlook': 4, 'Mid Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 40.52, 'Resistance': 50.37, 'Stop Loss': 38.064248}
+WMT
+136.6
+1.90
+{'Valuation': 'Overvalued', 'Discount': -0.27, 'Short Term Outlook': 1, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 119.55, 'Resistance': 132.12, 'Stop Loss': 124.603895}
+HD
+257.88
+2.30
+{'Valuation': 'Near Fair Value', 'Discount': -0.0, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 218.23, 'Resistance': 265.17, 'Stop Loss': 248.713065}
+WBA
+42.76
+3.10
+{'Valuation': 'Undervalued', 'Discount': 0.14, 'Short Term Outlook': 1, 'Mid Term Outlook': -1, 'Long Term Outlook': -1, 'Support': 40.32, 'Resistance': 54.69, 'Stop Loss': 34.059358}
+COST
+327.5
+2.20
+{'Valuation': 'Overvalued', 'Discount': -0.11, 'Short Term Outlook': -2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 299.71, 'Resistance': 327.4, 'Stop Loss': 305.75106}
+TGT
+129.36
+2.10
+{'Valuation': 'Overvalued', 'Discount': -0.1, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 87.75, 'Resistance': 123.22, 'Stop Loss': 114.473008}
+MCD
+209.03
+2.00
+{'Valuation': 'Overvalued', 'Discount': -0.15, 'Short Term Outlook': 1, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 184.25, 'Resistance': 212.81, 'Stop Loss': 180.066151}
+DPZ
+427.96
+2.00
+{'Valuation': 'Near Fair Value', 'Discount': 0.1, 'Short Term Outlook': -4, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 283.01, 'Resistance': 381.86, 'Stop Loss': 355.303621}
+YUM
+94.45
+2.60
+{'Valuation': 'Overvalued', 'Discount': -0.08, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 90.8215, 'Resistance': 100.24, 'Stop Loss': 86.423545}
+QSR
+70.5
+2.30
+{'Valuation': 'Overvalued', 'Discount': -0.21, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -3, 'Support': 55.48, 'Resistance': 66.05, 'Stop Loss': 52.480636}
+SBUX
+80.28
+2.50
+{'Valuation': 'Near Fair Value', 'Discount': -0.0, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': -1, 'Support': 75.2, 'Resistance': 76.65, 'Stop Loss': 65.198017}
+V
+213.59
+1.80
+{'Valuation': 'Near Fair Value', 'Discount': 0.12, 'Short Term Outlook': 4, 'Mid Term Outlook': 4, 'Long Term Outlook': 2, 'Support': 179.46, 'Resistance': 199.8, 'Stop Loss': 180.890375}
+DIS
+122.79
+2.30
+{'Valuation': 'Overvalued', 'Discount': -0.17, 'Short Term Outlook': -1, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 112.14, 'Resistance': 132.7, 'Stop Loss': 106.773313}
+
+Fashion
+LVMUY
+nan
+6
+None
+HESAY
+nan
+6
+None
+CHDRY
+nan
+6
+None
+PPRUY
+nan
+6
+None
+BURBY
+nan
+6
+None
+GOOS
+32.9
+1.70
+{'Valuation': 'Undervalued', 'Discount': 0.68, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Support': 22.06, 'Resistance': 24.06, 'Stop Loss': 20.039263}
+NKE
+110.73
+2.00
+{'Valuation': 'Overvalued', 'Discount': -0.14, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': 2, 'Support': 88.59, 'Resistance': 98.81, 'Stop Loss': 89.874817}
+LULU
+321.06
+2.10
+{'Valuation': 'Near Fair Value', 'Discount': 0.1, 'Short Term Outlook': -2, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 176.78, 'Resistance': 323.74, 'Stop Loss': 290.322643}
+
+Tech
+AAPL
+370.81
+2.00
+{'Valuation': 'Overvalued', 'Discount': -0.08, 'Short Term Outlook': -4, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 203.77, 'Resistance': 388.23, 'Stop Loss': 324.294666}
+TSLA
+1115.34
+3.00
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -1, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 231.13, 'Resistance': 1590, 'Stop Loss': 1231.853658}
+NKLA
+59.67
+2.50
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -2, 'Mid Term Outlook': -2, 'Support': 10.155, 'Resistance': 68.99, 'Stop Loss': None}
+ASML
+381.97
+2.10
+{'Valuation': 'Overvalued', 'Discount': -0.05, 'Short Term Outlook': -4, 'Long Term Outlook': 2, 'Support': 183.43, 'Resistance': 391.93, 'Stop Loss': 349.666363}
+QCOM
+94.89
+2.20
+{'Valuation': 'Overvalued', 'Discount': -0.15, 'Short Term Outlook': -4, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 78.0202, 'Resistance': 91.39, 'Stop Loss': 83.460854}
+INTC
+62.72
+2.70
+{'Valuation': 'Undervalued', 'Discount': 0.26, 'Short Term Outlook': 1, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 58.88, 'Resistance': 60.48, 'Stop Loss': 55.48091}
+TSM
+63.8
+2.40
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 38.94, 'Resistance': 67.7073, 'Stop Loss': 64.770089}
+AVGO
+348.78
+2.00
+{'Valuation': 'Near Fair Value', 'Discount': 0.13, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 276.21, 'Resistance': 317.03, 'Stop Loss': 285.952439}
+NVDA
+406.18
+2.00
+{'Valuation': 'Overvalued', 'Discount': -0.24, 'Short Term Outlook': -3, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 149.08, 'Resistance': 408.64, 'Stop Loss': 363.941261}
+AMD
+54.57
+2.40
+{'Valuation': 'Overvalued', 'Discount': 0.01, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Support': 53.53, 'Resistance': 61.79, 'Stop Loss': 53.48101}
+GOOG
+1599.48
+1.60
+{'Valuation': 'Near Fair Value', 'Discount': 0.19, 'Short Term Outlook': -2, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 1204.24, 'Resistance': 1518.27, 'Stop Loss': 1417.484823}
+IBM
+133.75
+2.60
+{'Valuation': 'Overvalued', 'Discount': -0.11, 'Short Term Outlook': -1, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 121.96, 'Resistance': 133.97, 'Stop Loss': 119.741356}
+MSFT
+227.65
+1.70
+{'Valuation': 'Overvalued', 'Discount': -0.09, 'Short Term Outlook': -4, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 136.95, 'Resistance': 208.02, 'Stop Loss': 188.793266}
+ORCL
+54.1
+2.80
+{'Valuation': 'Near Fair Value', 'Discount': -0.03, 'Short Term Outlook': -4, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 53.65, 'Resistance': 56.36, 'Stop Loss': 52.341853}
+CRM
+202.05
+1.80
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -3, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 154.88, 'Resistance': 189.69, 'Stop Loss': 174.612047}
+HUBS
+206.02
+2.10
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -4, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 179.6047, 'Resistance': 230.655, 'Stop Loss': 201.214953}
+ADBE
+434.55
+2.00
+{'Valuation': 'Overvalued', 'Discount': 0.05, 'Short Term Outlook': -4, 'Mid Term Outlook': -2, 'Long Term Outlook': 2, 'Support': 277.61, 'Resistance': 442.67, 'Stop Loss': 384.098085}
+AMZN
+2998.24
+1.70
+{'Valuation': 'Overvalued', 'Discount': 0.11, 'Short Term Outlook': -4, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 1788.61, 'Resistance': 3104, 'Stop Loss': 2653.072262}
+MELI
+863.52
+2.30
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': 1, 'Mid Term Outlook': -2, 'Long Term Outlook': 3, 'Support': 578.94, 'Resistance': 989, 'Stop Loss': 875.446404}
+OSTK
+66.0
+2.00
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -1, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 8.13, 'Resistance': 53.9499, 'Stop Loss': 39.180241}
+SHOP
+857.13
+2.60
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -4, 'Mid Term Outlook': -3, 'Long Term Outlook': 2, 'Support': 315.5999, 'Resistance': 1016.64, 'Stop Loss': 780.31756}
+W
+188.04
+2.60
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -3, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 149.5, 'Resistance': 230.61, 'Stop Loss': 182.65011}
+SQ
+100.18
+2.70
+{'Valuation': 'Overvalued', 'Discount': -0.64, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 61.53, 'Resistance': 127, 'Stop Loss': 108.299117}
+YELP
+24.35
+2.90
+{'Valuation': 'Near Fair Value', 'Discount': 0.08, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 23.12, 'Resistance': 34.7394, 'Stop Loss': 20.425354}
+FB
+254.07
+1.80
+{'Valuation': 'Near Fair Value', 'Discount': 0.2, 'Short Term Outlook': -4, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 189.09, 'Resistance': 238.67, 'Stop Loss': 204.54324}
+TWTR
+33.76
+2.90
+{'Valuation': 'Near Fair Value', 'Discount': 0.09, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': 3, 'Support': 29.9531, 'Resistance': 39.97, 'Stop Loss': 33.497716}
+SNAP
+24.82
+2.30
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -4, 'Long Term Outlook': 2, 'Support': 15.545, 'Resistance': 23.08, 'Stop Loss': 17.663812}
+NFLX
+507.79
+2.30
+{'Valuation': 'Overvalued', 'Discount': 0.22, 'Short Term Outlook': -4, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 359.15, 'Resistance': 490.83, 'Stop Loss': 434.117669}
+FIT
+7.35
+3.00
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 6.495, 'Resistance': 6.895, 'Stop Loss': 6.109559}
+GPRO
+3.88
+3.20
+{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 4.5323, 'Resistance': 6.2483, 'Stop Loss': 4.583595}
+IRBT
+80.33
+3.00
+{'Valuation': 'Near Fair Value', 'Discount': 0.16, 'Short Term Outlook': -3, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 49.06, 'Resistance': 88.05, 'Stop Loss': 58.589037}
+ISRG
+652.21
+2.40
+{'Valuation': 'Overvalued', 'Discount': 0.01, 'Short Term Outlook': 3, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 574.19, 'Resistance': None, 'Stop Loss': 622.800623}
+CSCO
+49.35
+2.30
+{'Valuation': 'Overvalued', 'Discount': -0.18, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 47.38, 'Resistance': 47.81, 'Stop Loss': 43.411754}
+ANET
+218.9
+2.60
+{'Valuation': 'Undervalued', 'Discount': 0.53, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 210.5525, 'Resistance': 240.96, 'Stop Loss': 209.191495}
+VZ
+60.7
+2.60
+{'Valuation': 'Undervalued', 'Discount': 0.15, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 55.76, 'Resistance': 57.035, 'Stop Loss': 52.634291}
+T
+33.04
+2.70
+{'Valuation': 'Overvalued', 'Discount': -0.26, 'Short Term Outlook': 2, 'Mid Term Outlook': -2, 'Long Term Outlook': -3, 'Support': 29.8065, 'Resistance': 30.695, 'Stop Loss': 28.084999}
+TMUS
+115.26
+2.00
+{'Valuation': 'Near Fair Value', 'Discount': -0.02, 'Short Term Outlook': -2, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 77.98, 'Resistance': 105.11, 'Stop Loss': 99.344477}
+TCEHY
+456.68
+1.30
+None
+BABA
+282.45
+1.60
+{'Valuation': 'Undervalued', 'Discount': 0.56, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 176.37, 'Resistance': 255.91, 'Stop Loss': 232.737016}
+BIDU
+143.67
+2.00
+{'Valuation': 'Overvalued', 'Discount': -0.36, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 115.87, 'Resistance': 128.07, 'Stop Loss': 113.297912}
+JD
+65.34
+1.80
+{'Valuation': 'Overvalued', 'Discount': 0.07, 'Short Term Outlook': -4, 'Mid Term Outlook': -2, 'Long Term Outlook': 2, 'Support': 30.761, 'Resistance': 60.965, 'Stop Loss': 53.798851}
+VIPS
+20.77
+1.90
+{'Valuation': 'Overvalued', 'Discount': -0.12, 'Short Term Outlook': -4, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 7.9, 'Resistance': 21.03, 'Stop Loss': 18.865951}
+QQQ
+None
+6
+None
+
+Petroleum
+XOM
+47.23
+3.10
+{'Valuation': 'Near Fair Value', 'Discount': 0.03, 'Short Term Outlook': 3, 'Mid Term Outlook': -1, 'Long Term Outlook': -1, 'Support': 43.41, 'Resistance': 68.92, 'Stop Loss': 36.536885}
+VLO
+72.72
+1.90
+{'Valuation': 'Near Fair Value', 'Discount': 0.03, 'Short Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 56.27, 'Resistance': 84.3, 'Stop Loss': 44.588465}
+CVX
+100.14
+2.20
+{'Valuation': 'Overvalued', 'Discount': -0.25, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 88.78, 'Resistance': 117.49, 'Stop Loss': 83.457803}
+RDS-B
+43.5
+2.20
+{'Valuation': 'Undervalued', 'Discount': 0.15, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 57.31, 'Resistance': 64.9, 'Stop Loss': 58.038052}
+EPD
+24.43
+1.70
+{'Valuation': 'Undervalued', 'Discount': 0.23, 'Short Term Outlook': 4, 'Mid Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 17.39, 'Resistance': 28.825, 'Stop Loss': 16.348452}
+PSX
+84.11
+1.80
+{'Valuation': 'Undervalued', 'Discount': 0.17, 'Short Term Outlook': 1, 'Mid Term Outlook': -1, 'Long Term Outlook': -2, 'Support': 59.39, 'Resistance': 118.51, 'Stop Loss': 56.139729}
+BP
+31.09
+2.20
+{'Valuation': 'Undervalued', 'Discount': 0.33, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 22.9883, 'Resistance': 23.255, 'Stop Loss': 21.094192}
+CEO
+136.69
+1.00
+{'Valuation': 'Undervalued', 'Discount': 0.81, 'Short Term Outlook': -3, 'Mid Term Outlook': -2, 'Long Term Outlook': -3, 'Support': 108.82, 'Resistance': 113.06, 'Stop Loss': 104.037278}
+PBA
+41.93
+2.00
+{'Valuation': 'Undervalued', 'Discount': 0.39, 'Short Term Outlook': 4, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 24.55, 'Resistance': 35.46, 'Stop Loss': 22.89067}
+ENB
+41.66
+2.30
+{'Valuation': 'Near Fair Value', 'Discount': 0.02, 'Short Term Outlook': 4, 'Mid Term Outlook': -2, 'Long Term Outlook': -2, 'Support': 30.67, 'Resistance': 36.7, 'Stop Loss': 29.49899}
+SU
+42.83
+2.00
+{'Valuation': 'Overvalued', 'Discount': -0.21, 'Short Term Outlook': 4, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 16.98, 'Resistance': 32.125, 'Stop Loss': 14.780806}
+
+Banking
+JPM
+113.88
+2.30
+{'Valuation': 'Undervalued', 'Discount': 0.16, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 98.435, 'Resistance': 109.84, 'Stop Loss': 90.41522}
+BAC
+28.57
+2.30
+{'Valuation': 'Undervalued', 'Discount': 0.19, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 24.01, 'Resistance': 27.87, 'Stop Loss': 21.189867}
+WFC
+29.59
+3.00
+{'Valuation': 'Undervalued', 'Discount': 0.21, 'Short Term Outlook': 4, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 26.3, 'Resistance': 47.8535, 'Stop Loss': 23.15958}
+C
+69.46
+1.90
+{'Valuation': 'Undervalued', 'Discount': 0.09, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 50.24, 'Resistance': 64.335, 'Stop Loss': 45.225694}
+AXP
+104.0
+2.60
+{'Valuation': 'Undervalued', 'Discount': 0.27, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 93.43, 'Resistance': 118.22, 'Stop Loss': 88.301674}
+DFS
+58.53
+2.30
+{'Valuation': 'Undervalued', 'Discount': 0.41, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 39.16, 'Resistance': 76.45, 'Stop Loss': 45.304467}
+BCS
+6.9
+1.00
+{'Valuation': 'Undervalued', 'Discount': 0.07, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 5.785, 'Resistance': 8.7622, 'Stop Loss': 5.291164}
+AIG
+37.64
+2.60
+{'Valuation': 'Near Fair Value', 'Discount': -0.04, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 23.3, 'Resistance': 52.67, 'Stop Loss': 28.446648}
+UNH
+342.96
+1.80
+{'Valuation': 'Near Fair Value', 'Discount': 0.07, 'Short Term Outlook': 2, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 246.24, 'Resistance': 303.48, 'Stop Loss': 283.359666}
+
+Investment
+GS
+245.16
+2.20
+{'Valuation': 'Undervalued', 'Discount': 0.14, 'Short Term Outlook': -2, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 197.35, 'Resistance': 206.05, 'Stop Loss': 187.131968}
+MS
+57.56
+2.10
+{'Valuation': 'Undervalued', 'Discount': 0.22, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 42.61, 'Resistance': 50.6, 'Stop Loss': 45.81647}
+CS
+13.86
+2.00
+{'Valuation': 'Undervalued', 'Discount': 0.61, 'Short Term Outlook': -2, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 10.565, 'Resistance': 12.005, 'Stop Loss': 9.754088}
+UBS
+14.27
+1.50
+{'Valuation': 'Undervalued', 'Discount': 0.32, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 11.945, 'Resistance': 12.1992, 'Stop Loss': 11.297833}
+BRK-A
+335000.0
+2.50
+{'Valuation': 'Near Fair Value', 'Discount': -0.05, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 287485, 'Resistance': 309750, 'Stop Loss': 272598.496558}
+FRT
+95.69
+2.30
+{'Valuation': 'Overvalued', 'Discount': -0.14, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 70.92, 'Resistance': 131.285, 'Stop Loss': 68.086427}
+SEQUX
+None
+6
+None
+BX
+61.08
+2.20
+{'Valuation': 'Near Fair Value', 'Discount': -0.02, 'Short Term Outlook': 4, 'Mid Term Outlook': 4, 'Long Term Outlook': 2, 'Support': 52.82, 'Resistance': 56.69, 'Stop Loss': 52.561262}
+CG
+30.36
+2.60
+{'Valuation': 'Near Fair Value', 'Discount': -0.07, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': 3, 'Support': 18.93, 'Resistance': 29.33, 'Stop Loss': 26.130129}
+KKR
+38.29
+1.90
+{'Valuation': 'Overvalued', 'Discount': None, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 23.87, 'Resistance': 35.62, 'Stop Loss': 32.206716}
+APO
+53.38
+2.40
+{'Valuation': 'Overvalued', 'Discount': -0.08, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 29.3399, 'Resistance': 52.82, 'Stop Loss': 44.495726}
+
+Delivery
+UPS
+108.48
+2.50
+{'Valuation': 'Near Fair Value', 'Discount': -0.02, 'Short Term Outlook': -4, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 115.73, 'Resistance': 118.24, 'Stop Loss': 111.967825}
+FDX
+170.96
+2.20
+{'Valuation': 'Overvalued', 'Discount': -0.24, 'Short Term Outlook': 1, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 158.34, 'Resistance': 174.2295, 'Stop Loss': 148.181106}
+
+Pharmaceutical
+PFE
+40.25
+2.50
+{'Valuation': 'Overvalued', 'Discount': -0.17, 'Short Term Outlook': -2, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 36.285, 'Resistance': 43.04, 'Stop Loss': 33.69993}
+MRK
+93.0
+2.00
+{'Valuation': 'Near Fair Value', 'Discount': 0.04, 'Short Term Outlook': -2, 'Mid Term Outlook': -2, 'Support': 77.06, 'Resistance': 82.72, 'Stop Loss': 74.615207}
+AMGN
+258.21
+2.20
+{'Valuation': 'Overvalued', 'Discount': -0.07, 'Short Term Outlook': -2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 202.5, 'Resistance': 253.9, 'Stop Loss': 232.315587}
+JNJ
+166.06
+1.90
+{'Valuation': 'Overvalued', 'Discount': -0.1, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 139.89, 'Resistance': 150.57, 'Stop Loss': 143.4831}
+ILMN
+343.86
+2.30
+{'Valuation': 'Overvalued', 'Discount': 0.06, 'Short Term Outlook': -2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 300.86, 'Resistance': 402.14, 'Stop Loss': 364.138444}
+BMY
+71.36
+1.90
+{'Valuation': 'Near Fair Value', 'Discount': -0.02, 'Short Term Outlook': 3, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 50.43, 'Resistance': 60.725, 'Stop Loss': 56.806736}
+
+Machine
+CAT
+133.55
+2.50
+{'Valuation': 'Undervalued', 'Discount': 0.88, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 132.22, 'Resistance': 140.22, 'Stop Loss': 126.663353}
+
+Arms
+LMT
+434.26
+2.10
+{'Valuation': 'Undervalued', 'Discount': 0.43, 'Short Term Outlook': 1, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 384.1, 'Resistance': 393.4284, 'Stop Loss': 347.108037}
+RTX
+76.56
+2.00
+{'Valuation': 'Near Fair Value', 'Discount': 0.08, 'Short Term Outlook': 4, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 60.09, 'Resistance': 82.48974, 'Stop Loss': 55.597094}
+NOC
+391.06
+1.90
+{'Valuation': 'Near Fair Value', 'Discount': -0.03, 'Short Term Outlook': 4, 'Mid Term Outlook': -2, 'Long Term Outlook': -2, 'Support': 308.04, 'Resistance': 367.3532, 'Stop Loss': 275.725571}
+
+Construction
+LEN
+71.8
+2.30
+{'Valuation': 'Undervalued', 'Discount': 0.45, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': 3, 'Support': 52.1099, 'Resistance': 70.36, 'Stop Loss': 58.387833}
+TPH
+17.21
+2.70
+{'Valuation': 'Undervalued', 'Discount': 0.13, 'Short Term Outlook': 3, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 15.82, 'Resistance': 17.21, 'Stop Loss': 13.260815}
+
+Others
+MMM
+158.8
+3.20
+{'Valuation': 'Overvalued', 'Discount': -0.13, 'Short Term Outlook': 3, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 156.84, 'Resistance': 160, 'Stop Loss': 149.315901}
+TRV
+119.53
+2.70
+{'Valuation': 'Undervalued', 'Discount': 0.2, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -3, 'Support': 114.66, 'Resistance': 135.52, 'Stop Loss': 112.000579}
+PG
+130.01
+2.20
+{'Valuation': 'Overvalued', 'Discount': -0.27, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 125, 'Resistance': 126.35, 'Stop Loss': 118.873706}
+DOW
+40.9
+2.70
+{'Valuation': 'Overvalued', 'Discount': -0.22, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': None, 'Resistance': None, 'Stop Loss': 38.716919}
+

@@ -3,10 +3,13 @@ import subprocess
 import sys
 import datetime
 from productivity.email.send_email import send_email
+import socket
 
 def create_email(ret, cmd, stdout, stderr, start, end):
 	subject = ""
+	hostname = socket.gethostname()
 	body = cmd + '\n' + \
+			'@' + hostname + '\n\ + \
 			'\n' + \
 			"Start: " + str(start) + '\n' + \
 			"End: " + str(end) + '\n' + \
