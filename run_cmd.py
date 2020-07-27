@@ -9,7 +9,7 @@ def create_email(ret, cmd, stdout, stderr, start, end):
 	subject = ""
 	hostname = socket.gethostname()
 	body = cmd + '\n' + \
-			'@' + hostname + '\n\ + \
+			'@' + hostname + '\n' + \
 			'\n' + \
 			"Start: " + str(start) + '\n' + \
 			"End: " + str(end) + '\n' + \
