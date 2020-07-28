@@ -1,562 +1,537 @@
 Aviation
 UAL
-41.53
-2.50
-{'Valuation': 'Undervalued', 'Discount': 0.64, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 31.8, 'Resistance': 88.91, 'Stop Loss': 23.6913}
+32.41999816894531
+2020-10-13 14:59:00
+b"United (UAL)'s estimated earnings date is October 13, 2020 at 14:59 EST\nMarket Cap: $9,433,700,747\nP/E: #N/A"
 DAL
-35.47
-2.20
-{'Valuation': 'Undervalued', 'Discount': 0.6, 'Short Term Outlook': -2, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 22.53, 'Resistance': 57.519, 'Stop Loss': 18.318148}
+25.5
+2020-10-08 16:30:00
+b"Delta (DAL)'s estimated earnings date is October 08, 2020 at 16:30 EST\nMarket Cap: $16,265,353,500\nP/E: #N/A"
 AAL
-12.47
-3.30
-{'Valuation': 'Undervalued', 'Discount': 0.34, 'Short Term Outlook': 3, 'Mid Term Outlook': 1, 'Long Term Outlook': -1, 'Support': 11.65, 'Resistance': 28.745, 'Stop Loss': 5.503177}
+11.390000343322754
+2020-10-22 16:30:00
+b"American Airlines (AAL)'s estimated earnings date is October 22, 2020 at 16:30 EST\nMarket Cap: $5,792,509,964\nP/E: #N/A"
 ALK
-44.4
-2.00
-{'Valuation': 'Near Fair Value', 'Discount': -0.09, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -1, 'Support': 35.74, 'Resistance': 65.38, 'Stop Loss': 29.043011}
+34.150001525878906
+2020-10-22 14:59:00
+b"Alaska Airlines (ALK)'s estimated earnings date is October 22, 2020 at 14:59 EST\nMarket Cap: $4,186,277,937\nP/E: 81.56"
 LUV
-41.18
-2.30
-{'Valuation': 'Near Fair Value', 'Discount': 0.06, 'Short Term Outlook': -2, 'Long Term Outlook': -2, 'Support': 29.65, 'Resistance': 53.44, 'Stop Loss': 28.585452}
+31.530000686645508
+2020-10-22 16:30:00
+b"Southwest (LUV)'s estimated earnings date is October 22, 2020 at 16:30 EST\nMarket Cap: $18,583,340,984\nP/E: 78.87"
 SAVE
-17.92
-2.90
-{'Valuation': 'Undervalued', 'Discount': 0.71, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 16.7298, 'Resistance': 37.7, 'Stop Loss': 11.682941}
+16.280000686645508
+2020-10-21 14:59:00
+b"Spirit (SAVE)'s estimated earnings date is October 21, 2020 at 14:59 EST\nMarket Cap: $1,432,045,014\nP/E: 88.82"
 BA
-177.86
-2.90
-{'Valuation': 'Overvalued', 'Discount': None, 'Mid Term Outlook': 4, 'Long Term Outlook': -3, 'Support': 131.29, 'Resistance': 355.04, 'Stop Loss': 150.172564}
+170.2100067138672
+2020-07-29 16:30:00
+b"Boeing (BA)'s estimated earnings date is July 29, 2020 at 16:30 EST\nMarket Cap: $96,053,762,038\nP/E: #N/A"
 EADSY
-nan
-6
+18.25
 None
 JETS
-None
-6
+15.84000015258789
 None
 
 Cruise
 NCLH
-16.85
-2.60
-{'Valuation': 'Undervalued', 'Discount': 0.72, 'Short Term Outlook': -4, 'Mid Term Outlook': 1, 'Long Term Outlook': -2, 'Support': 11.46, 'Resistance': 56.78, 'Stop Loss': 7.001543}
+13.380000114440918
+2020-08-06 11:00:00
+b"Norwegian Cruise Line Holdings (NCLH)'s estimated earnings date is August 06, 2020 at 11:00 EST\nMarket Cap: $3,652,927,351\nP/E: #N/A"
 RCL
-60.0
-2.60
-{'Valuation': 'Undervalued', 'Discount': 0.37, 'Short Term Outlook': 1, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 50.36, 'Resistance': 118.8, 'Stop Loss': 32.115636}
+49.29999923706055
+2020-10-28 16:30:00
+b"Royal Caribbean Cruises (RCL)'s estimated earnings date is October 28, 2020 at 16:30 EST\nMarket Cap: $10,322,680,340\nP/E: 58.05"
 
 Hotel
 HLT
-79.0
-2.60
-{'Valuation': 'Overvalued', 'Discount': -0.11, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': 1, 'Support': 71.935, 'Resistance': 93.65, 'Stop Loss': 71.913335}
+77.33999633789062
+2020-08-06 16:30:00
+b"Hilton (HLT)'s estimated earnings date is August 06, 2020 at 16:30 EST\nMarket Cap: $21,443,364,724\nP/E: 30.08"
 MAR
-95.1
-2.80
-{'Valuation': 'Near Fair Value', 'Discount': -0.03, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 86.42, 'Resistance': 123.59, 'Stop Loss': 70.318941}
+86.2699966430664
+2020-08-03 21:00:00
+b"Marriott (MAR)'s estimated earnings date is August 03, 2020 at 21:00 EST\nMarket Cap: $27,973,564,031\nP/E: 30.85"
 MGM
-17.74
-2.80
-{'Valuation': 'Undervalued', 'Discount': 0.19, 'Short Term Outlook': -3, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 14.06, 'Resistance': 27.67, 'Stop Loss': 13.309836}
+14.960000038146973
+2020-07-31 00:00:00
+b"MGM (MGM)'s estimated earnings date is July 31, 2020 at 00:00 EST\nMarket Cap: $7,378,541,298\nP/E: 2.69"
 WYNN
-98.87
-1.90
-{'Valuation': 'Overvalued', 'Discount': -0.34, 'Short Term Outlook': -3, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 73.29, 'Resistance': 116.99, 'Stop Loss': 63.676383}
+70.69000244140625
+2020-08-04 14:59:00
+b"Wynn Resorts (WYNN)'s estimated earnings date is August 04, 2020 at 14:59 EST\nMarket Cap: $7,625,189,183\nP/E: #N/A"
 
 Retail
 STZ
-205.0
-2.20
-{'Valuation': 'Near Fair Value', 'Discount': -0.0, 'Short Term Outlook': -4, 'Mid Term Outlook': 2, 'Support': 172.62, 'Resistance': 190.58, 'Stop Loss': 168.927592}
+178.88999938964844
+2020-09-29 16:30:00
+b"Constellation (Corona) (STZ)'s estimated earnings date is September 29, 2020 at 16:30 EST\nMarket Cap: $34,244,393,802\nP/E: 679.6"
 KO
-53.45
-2.00
-{'Valuation': 'Overvalued', 'Discount': -0.18, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 46, 'Resistance': 54.33, 'Stop Loss': 43.767771}
+48.47999954223633
+2020-10-16 16:30:00
+b"Coca-Cola (KO)'s estimated earnings date is October 16, 2020 at 16:30 EST\nMarket Cap: $208,242,880,753\nP/E: 22.8"
 PEP
-146.86
-2.20
-{'Valuation': 'Overvalued', 'Discount': -0.19, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 134.3392, 'Resistance': 137.11, 'Stop Loss': 127.484271}
+137.6699981689453
+2020-10-01 16:30:00
+b"Pepsi (PEP)'s estimated earnings date is October 01, 2020 at 16:30 EST\nMarket Cap: $190,622,284,904\nP/E: 28.12"
 MNST
-71.93
-2.20
-{'Valuation': 'Near Fair Value', 'Discount': 0.05, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 58.045, 'Resistance': 75.76, 'Stop Loss': 70.905935}
+76.43000030517578
+2020-08-05 14:59:00
+b"Monster (MNST)'s estimated earnings date is August 05, 2020 at 14:59 EST\nMarket Cap: $40,245,286,680\nP/E: 37"
 YCBD
-4.27
-2.30
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 0.8201, 'Resistance': 3.995, 'Stop Loss': 1.996572}
+2.9800000190734863
+None
 MO
-48.57
-2.10
-{'Valuation': 'Overvalued', 'Discount': -0.12, 'Short Term Outlook': 4, 'Mid Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 40.52, 'Resistance': 50.37, 'Stop Loss': 38.064248}
+42.130001068115234
+2020-07-28 16:30:00
+b"Altria (MO)'s estimated earnings date is July 28, 2020 at 16:30 EST\nMarket Cap: $78,293,045,824\nP/E: #N/A"
 WMT
-136.6
-1.90
-{'Valuation': 'Overvalued', 'Discount': -0.27, 'Short Term Outlook': 1, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 119.55, 'Resistance': 132.12, 'Stop Loss': 124.603895}
+131.2100067138672
+2020-08-18 11:00:00
+b"Walmart (WMT)'s estimated earnings date is August 18, 2020 at 11:00 EST\nMarket Cap: $371,580,572,143\nP/E: 24.95"
 HD
-257.88
-2.30
-{'Valuation': 'Near Fair Value', 'Discount': -0.0, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 218.23, 'Resistance': 265.17, 'Stop Loss': 248.713065}
+267.4200134277344
+2020-08-18 16:30:00
+b"The Home Depot (HD)'s estimated earnings date is August 18, 2020 at 16:30 EST\nMarket Cap: $287,616,375,101\nP/E: 26.58"
 WBA
-42.76
-3.10
-{'Valuation': 'Undervalued', 'Discount': 0.14, 'Short Term Outlook': 1, 'Mid Term Outlook': -1, 'Long Term Outlook': -1, 'Support': 40.32, 'Resistance': 54.69, 'Stop Loss': 34.059358}
+39.84000015258789
+2020-10-26 11:00:00
+b"Walgreens (WBA)'s estimated earnings date is October 26, 2020 at 11:00 EST\nMarket Cap: $34,522,714,692\nP/E: 48.85"
 COST
-327.5
-2.20
-{'Valuation': 'Overvalued', 'Discount': -0.11, 'Short Term Outlook': -2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 299.71, 'Resistance': 327.4, 'Stop Loss': 305.75106}
+327.6000061035156
+2020-09-24 20:15:00
+b"Costco (COST)'s estimated earnings date is September 24, 2020 at 20:15 EST\nMarket Cap: $144,643,265,094\nP/E: 39.16"
 TGT
-129.36
-2.10
-{'Valuation': 'Overvalued', 'Discount': -0.1, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 87.75, 'Resistance': 123.22, 'Stop Loss': 114.473008}
+122.69000244140625
+2020-08-19 16:30:00
+b"Target (TGT)'s estimated earnings date is August 19, 2020 at 16:30 EST\nMarket Cap: $61,346,841,570\nP/E: 22.74"
 MCD
-209.03
-2.00
-{'Valuation': 'Overvalued', 'Discount': -0.15, 'Short Term Outlook': 1, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 184.25, 'Resistance': 212.81, 'Stop Loss': 180.066151}
+201.25
+2020-07-28 16:30:00
+b"McDonald's (MCD)'s estimated earnings date is July 28, 2020 at 16:30 EST\nMarket Cap: $149,640,645,000\nP/E: 26.36"
 DPZ
-427.96
-2.00
-{'Valuation': 'Near Fair Value', 'Discount': 0.1, 'Short Term Outlook': -4, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 283.01, 'Resistance': 381.86, 'Stop Loss': 355.303621}
+389.6099853515625
+2020-10-06 11:30:00
+b"Domino's Pizza (DPZ)'s estimated earnings date is October 06, 2020 at 11:30 EST\nMarket Cap: $15,329,984,093\nP/E: 34.64"
 YUM
-94.45
-2.60
-{'Valuation': 'Overvalued', 'Discount': -0.08, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 90.8215, 'Resistance': 100.24, 'Stop Loss': 86.423545}
+93.37000274658203
+2020-07-30 16:30:00
+b"Yum! Brands (KFC, Pizza Hut, Taco Bell) (YUM)'s estimated earnings date is July 30, 2020 at 16:30 EST\nMarket Cap: $28,103,063,646\nP/E: 26.08"
 QSR
-70.5
-2.30
-{'Valuation': 'Overvalued', 'Discount': -0.21, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -3, 'Support': 55.48, 'Resistance': 66.05, 'Stop Loss': 52.480636}
+56.4900016784668
+None
 SBUX
-80.28
-2.50
-{'Valuation': 'Near Fair Value', 'Discount': -0.0, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': -1, 'Support': 75.2, 'Resistance': 76.65, 'Stop Loss': 65.198017}
+76.45999908447266
+2020-07-29 00:00:00
+b"Starbucks (SBUX)'s estimated earnings date is July 29, 2020 at 00:00 EST\nMarket Cap: $89,312,924,930\nP/E: 27.21"
 V
-213.59
-1.80
-{'Valuation': 'Near Fair Value', 'Discount': 0.12, 'Short Term Outlook': 4, 'Mid Term Outlook': 4, 'Long Term Outlook': 2, 'Support': 179.46, 'Resistance': 199.8, 'Stop Loss': 180.890375}
+196.91000366210938
+2020-07-29 00:00:00
+b"Visa (V)'s estimated earnings date is July 29, 2020 at 00:00 EST\nMarket Cap: $419,225,139,086\nP/E: 35.44"
 DIS
-122.79
-2.30
-{'Valuation': 'Overvalued', 'Discount': -0.17, 'Short Term Outlook': -1, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 112.14, 'Resistance': 132.7, 'Stop Loss': 106.773313}
+116.30999755859375
+2020-08-05 00:00:00
+b"Disney (DIS)'s estimated earnings date is August 05, 2020 at 00:00 EST\nMarket Cap: $210,086,910,360\nP/E: 39.25"
 
 Fashion
 LVMUY
-nan
-6
+90.80000305175781
 None
 HESAY
-nan
-6
+87.76000213623047
 None
 CHDRY
-nan
-6
+103.25
 None
 PPRUY
-nan
-6
+57.849998474121094
 None
 BURBY
-nan
-6
+16.489999771118164
 None
 GOOS
-32.9
-1.70
-{'Valuation': 'Undervalued', 'Discount': 0.68, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Support': 22.06, 'Resistance': 24.06, 'Stop Loss': 20.039263}
+23.110000610351562
+None
 NKE
-110.73
-2.00
-{'Valuation': 'Overvalued', 'Discount': -0.14, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': 2, 'Support': 88.59, 'Resistance': 98.81, 'Stop Loss': 89.874817}
+97.20999908447266
+2020-09-22 14:59:00
+b"Nike (NKE)'s estimated earnings date is September 22, 2020 at 14:59 EST\nMarket Cap: $120,542,051,434\nP/E: 60.94"
 LULU
-321.06
-2.10
-{'Valuation': 'Near Fair Value', 'Discount': 0.1, 'Short Term Outlook': -2, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 176.78, 'Resistance': 323.74, 'Stop Loss': 290.322643}
+331.54998779296875
+2020-09-03 14:59:00
+b"Lululemon (LULU)'s estimated earnings date is September 03, 2020 at 14:59 EST\nMarket Cap: $43,170,096,105\nP/E: 75.1"
 
 Tech
 AAPL
-370.81
-2.00
-{'Valuation': 'Overvalued', 'Discount': -0.08, 'Short Term Outlook': -4, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 203.77, 'Resistance': 388.23, 'Stop Loss': 324.294666}
+379.239990234375
+2020-07-31 00:00:00
+b"Apple (AAPL)'s estimated earnings date is July 31, 2020 at 00:00 EST\nMarket Cap: $1,643,753,163,072\nP/E: 29.73"
 TSLA
-1115.34
-3.00
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -1, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 231.13, 'Resistance': 1590, 'Stop Loss': 1231.853658}
+1539.5999755859375
+2020-10-21 14:59:00
+b"Tesla (TSLA)'s estimated earnings date is October 21, 2020 at 14:59 EST\nMarket Cap: $285,397,187,074\nP/E: 792.25"
 NKLA
-59.67
-2.50
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -2, 'Mid Term Outlook': -2, 'Support': 10.155, 'Resistance': 68.99, 'Stop Loss': None}
+33.20000076293945
+None
 ASML
-381.97
-2.10
-{'Valuation': 'Overvalued', 'Discount': -0.05, 'Short Term Outlook': -4, 'Long Term Outlook': 2, 'Support': 183.43, 'Resistance': 391.93, 'Stop Loss': 349.666363}
+381.7799987792969
+None
 QCOM
-94.89
-2.20
-{'Valuation': 'Overvalued', 'Discount': -0.15, 'Short Term Outlook': -4, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 78.0202, 'Resistance': 91.39, 'Stop Loss': 83.460854}
+92.69999694824219
+2020-07-30 00:00:00
+b"Qualcomm (QCOM)'s estimated earnings date is July 30, 2020 at 00:00 EST\nMarket Cap: $104,280,822,166\nP/E: 27.51"
 INTC
-62.72
-2.70
-{'Valuation': 'Undervalued', 'Discount': 0.26, 'Short Term Outlook': 1, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 58.88, 'Resistance': 60.48, 'Stop Loss': 55.48091}
+49.56999969482422
+2020-10-23 00:00:00
+b"Intel (INTC)'s estimated earnings date is October 23, 2020 at 00:00 EST\nMarket Cap: $209,879,378,707\nP/E: 9.12"
 TSM
-63.8
-2.40
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 38.94, 'Resistance': 67.7073, 'Stop Loss': 64.770089}
+83.25
+None
 AVGO
-348.78
-2.00
-{'Valuation': 'Near Fair Value', 'Discount': 0.13, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 276.21, 'Resistance': 317.03, 'Stop Loss': 285.952439}
+312.67999267578125
+2020-09-10 20:15:00
+b"Broadcom (Avago) (AVGO)'s estimated earnings date is September 10, 2020 at 20:15 EST\nMarket Cap: $125,755,202,854\nP/E: 55.96"
 NVDA
-406.18
-2.00
-{'Valuation': 'Overvalued', 'Discount': -0.24, 'Short Term Outlook': -3, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 149.08, 'Resistance': 408.64, 'Stop Loss': 363.941261}
+416.8599853515625
+2020-08-13 14:59:00
+b"Nvidia (NVDA)'s estimated earnings date is August 13, 2020 at 14:59 EST\nMarket Cap: $256,368,890,991\nP/E: 77.82"
 AMD
-54.57
-2.40
-{'Valuation': 'Overvalued', 'Discount': 0.01, 'Short Term Outlook': 2, 'Mid Term Outlook': 2, 'Support': 53.53, 'Resistance': 61.79, 'Stop Loss': 53.48101}
+68.97000122070312
+2020-07-29 00:00:00
+b"AMD (AMD)'s estimated earnings date is July 29, 2020 at 00:00 EST\nMarket Cap: $80,776,975,729\nP/E: 164.99"
 GOOG
-1599.48
-1.60
-{'Valuation': 'Near Fair Value', 'Discount': 0.19, 'Short Term Outlook': -2, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 1204.24, 'Resistance': 1518.27, 'Stop Loss': 1417.484823}
+1530.199951171875
+None
 IBM
-133.75
-2.60
-{'Valuation': 'Overvalued', 'Discount': -0.11, 'Short Term Outlook': -1, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 121.96, 'Resistance': 133.97, 'Stop Loss': 119.741356}
+126.20999908447266
+2020-10-20 00:00:00
+b"IBM (IBM)'s estimated earnings date is October 20, 2020 at 00:00 EST\nMarket Cap: $112,060,848,507\nP/E: 14.32"
 MSFT
-227.65
-1.70
-{'Valuation': 'Overvalued', 'Discount': -0.09, 'Short Term Outlook': -4, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 136.95, 'Resistance': 208.02, 'Stop Loss': 188.793266}
+203.85000610351562
+2020-10-22 00:00:00
+b"Microsoft (MSFT)'s estimated earnings date is October 22, 2020 at 00:00 EST\nMarket Cap: $1,543,348,396,209\nP/E: 35.37"
 ORCL
-54.1
-2.80
-{'Valuation': 'Near Fair Value', 'Discount': -0.03, 'Short Term Outlook': -4, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 53.65, 'Resistance': 56.36, 'Stop Loss': 52.341853}
+55.34000015258789
+2020-09-09 14:59:00
+b"Oracle (ORCL)'s estimated earnings date is September 09, 2020 at 14:59 EST\nMarket Cap: $169,820,862,348\nP/E: 17.99"
 CRM
-202.05
-1.80
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -3, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 154.88, 'Resistance': 189.69, 'Stop Loss': 174.612047}
+190.9600067138672
+2020-08-20 14:59:00
+b"Salesforce (CRM)'s estimated earnings date is August 20, 2020 at 14:59 EST\nMarket Cap: $172,054,966,049\nP/E: #N/A"
 HUBS
-206.02
-2.10
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -4, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 179.6047, 'Resistance': 230.655, 'Stop Loss': 201.214953}
+226.94000244140625
+2020-08-04 14:59:00
+b"Hubspot (HUBS)'s estimated earnings date is August 04, 2020 at 14:59 EST\nMarket Cap: $9,900,711,486\nP/E: #N/A"
 ADBE
-434.55
-2.00
-{'Valuation': 'Overvalued', 'Discount': 0.05, 'Short Term Outlook': -4, 'Mid Term Outlook': -2, 'Long Term Outlook': 2, 'Support': 277.61, 'Resistance': 442.67, 'Stop Loss': 384.098085}
+437.1000061035156
+2020-09-16 00:00:00
+b"Adobe (ADBE)'s estimated earnings date is September 16, 2020 at 00:00 EST\nMarket Cap: $209,661,574,427\nP/E: 57.63"
 AMZN
-2998.24
-1.70
-{'Valuation': 'Overvalued', 'Discount': 0.11, 'Short Term Outlook': -4, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 1788.61, 'Resistance': 3104, 'Stop Loss': 2653.072262}
+3055.2099609375
+2020-07-31 00:00:00
+b"Amazon (AMZN)'s estimated earnings date is July 31, 2020 at 00:00 EST\nMarket Cap: $1,523,865,403,476\nP/E: 145.94"
 MELI
-863.52
-2.30
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': 1, 'Mid Term Outlook': -2, 'Long Term Outlook': 3, 'Support': 578.94, 'Resistance': 989, 'Stop Loss': 875.446404}
+1070.43994140625
+2020-07-31 00:00:00
+b" (MELI)'s estimated earnings date is July 31, 2020 at 00:00 EST\nMarket Cap: $53,211,515,965\nP/E: #N/A"
 OSTK
-66.0
-2.00
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -1, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 8.13, 'Resistance': 53.9499, 'Stop Loss': 39.180241}
+59.130001068115234
+2020-08-06 14:59:00
+b"Overstock (OSTK)'s estimated earnings date is August 06, 2020 at 14:59 EST\nMarket Cap: $2,387,629,234\nP/E: #N/A"
 SHOP
-857.13
-2.60
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -4, 'Mid Term Outlook': -3, 'Long Term Outlook': 2, 'Support': 315.5999, 'Resistance': 1016.64, 'Stop Loss': 780.31756}
+976.9299926757812
+2020-07-29 16:30:00
+b"Shopify (SHOP)'s estimated earnings date is July 29, 2020 at 16:30 EST\nMarket Cap: $114,457,026,550\nP/E: #N/A"
 W
-188.04
-2.60
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -3, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 149.5, 'Resistance': 230.61, 'Stop Loss': 182.65011}
+231.41000366210938
+2020-08-05 16:30:00
+b"Wayfair (W)'s estimated earnings date is August 05, 2020 at 16:30 EST\nMarket Cap: $21,899,388,504\nP/E: #N/A"
 SQ
-100.18
-2.70
-{'Valuation': 'Overvalued', 'Discount': -0.64, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 61.53, 'Resistance': 127, 'Stop Loss': 108.299117}
+125.75
+2020-08-06 00:00:00
+b"Square (SQ)'s estimated earnings date is August 06, 2020 at 00:00 EST\nMarket Cap: $55,248,413,400\nP/E: 272.66"
 YELP
-24.35
-2.90
-{'Valuation': 'Near Fair Value', 'Discount': 0.08, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 23.12, 'Resistance': 34.7394, 'Stop Loss': 20.425354}
+24.34000015258789
+2020-08-06 14:59:00
+b"Yelp (YELP)'s estimated earnings date is August 06, 2020 at 14:59 EST\nMarket Cap: $1,749,797,012\nP/E: 78.9"
 FB
-254.07
-1.80
-{'Valuation': 'Near Fair Value', 'Discount': 0.2, 'Short Term Outlook': -4, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 189.09, 'Resistance': 238.67, 'Stop Loss': 204.54324}
+233.5
+2020-07-30 00:00:00
+b"Facebook (FB)'s estimated earnings date is July 30, 2020 at 00:00 EST\nMarket Cap: $665,786,722,500\nP/E: 33.6"
 TWTR
-33.76
-2.90
-{'Valuation': 'Near Fair Value', 'Discount': 0.09, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': 3, 'Support': 29.9531, 'Resistance': 39.97, 'Stop Loss': 33.497716}
+36.849998474121094
+2020-10-22 16:30:00
+b"Twitter (TWTR)'s estimated earnings date is October 22, 2020 at 16:30 EST\nMarket Cap: $28,913,577,452\nP/E: #N/A"
 SNAP
-24.82
-2.30
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': -4, 'Long Term Outlook': 2, 'Support': 15.545, 'Resistance': 23.08, 'Stop Loss': 17.663812}
+22.84000015258789
+2020-10-20 14:59:00
+b"Snapchat (SNAP)'s estimated earnings date is October 20, 2020 at 14:59 EST\nMarket Cap: $33,556,985,024\nP/E: #N/A"
 NFLX
-507.79
-2.30
-{'Valuation': 'Overvalued', 'Discount': 0.22, 'Short Term Outlook': -4, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 359.15, 'Resistance': 490.83, 'Stop Loss': 434.117669}
+495.6499938964844
+2020-10-14 20:00:00
+b"Netflix (NFLX)'s estimated earnings date is October 14, 2020 at 20:00 EST\nMarket Cap: $218,589,082,058\nP/E: 83.62"
 FIT
-7.35
-3.00
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 6.495, 'Resistance': 6.895, 'Stop Loss': 6.109559}
+6.789999961853027
+2020-07-29 14:59:00
+b"Fitbit (FIT)'s estimated earnings date is July 29, 2020 at 14:59 EST\nMarket Cap: $1,812,767,029\nP/E: #N/A"
 GPRO
-3.88
-3.20
-{'Valuation': 'Overvalued', 'Discount': None, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 4.5323, 'Resistance': 6.2483, 'Stop Loss': 4.583595}
+5.284999847412109
+2020-08-07 00:00:00
+b"GoPro (GPRO)'s estimated earnings date is August 07, 2020 at 00:00 EST\nMarket Cap: $832,778,565\nP/E: #N/A"
 IRBT
-80.33
-3.00
-{'Valuation': 'Near Fair Value', 'Discount': 0.16, 'Short Term Outlook': -3, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 49.06, 'Resistance': 88.05, 'Stop Loss': 58.589037}
+72.2300033569336
+2020-10-21 00:00:00
+b"iRobot (IRBT)'s estimated earnings date is October 21, 2020 at 00:00 EST\nMarket Cap: $2,014,061,413\nP/E: 21.43"
 ISRG
-652.21
-2.40
-{'Valuation': 'Overvalued', 'Discount': 0.01, 'Short Term Outlook': 3, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 574.19, 'Resistance': None, 'Stop Loss': 622.800623}
+685.3499755859375
+2020-10-15 14:59:00
+b"Intuitive Surgical (ISRG)'s estimated earnings date is October 15, 2020 at 14:59 EST\nMarket Cap: $80,203,766,242\nP/E: 72.15"
 CSCO
-49.35
-2.30
-{'Valuation': 'Overvalued', 'Discount': -0.18, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 47.38, 'Resistance': 47.81, 'Stop Loss': 43.411754}
+47.189998626708984
+2020-08-13 00:00:00
+b"Cisco (CSCO)'s estimated earnings date is August 13, 2020 at 00:00 EST\nMarket Cap: $199,250,142,441\nP/E: 18.66"
 ANET
-218.9
-2.60
-{'Valuation': 'Undervalued', 'Discount': 0.53, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 210.5525, 'Resistance': 240.96, 'Stop Loss': 209.191495}
+245.8300018310547
+2020-08-05 00:00:00
+b" (ANET)'s estimated earnings date is August 05, 2020 at 00:00 EST\nMarket Cap: $18,610,560,288\nP/E: 24.85"
 VZ
-60.7
-2.60
-{'Valuation': 'Undervalued', 'Discount': 0.15, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 55.76, 'Resistance': 57.035, 'Stop Loss': 52.634291}
+56.869998931884766
+2020-10-21 16:30:00
+b"Verizon (VZ)'s estimated earnings date is October 21, 2020 at 16:30 EST\nMarket Cap: $235,327,771,230\nP/E: 12.3"
 T
-33.04
-2.70
-{'Valuation': 'Overvalued', 'Discount': -0.26, 'Short Term Outlook': 2, 'Mid Term Outlook': -2, 'Long Term Outlook': -3, 'Support': 29.8065, 'Resistance': 30.695, 'Stop Loss': 28.084999}
+29.290000915527344
+2020-10-26 16:30:00
+b"AT&T (T)'s estimated earnings date is October 26, 2020 at 16:30 EST\nMarket Cap: $208,691,285,813\nP/E: 17.89"
 TMUS
-115.26
-2.00
-{'Valuation': 'Near Fair Value', 'Discount': -0.02, 'Short Term Outlook': -2, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 77.98, 'Resistance': 105.11, 'Stop Loss': 99.344477}
+105.62000274658203
+2020-08-07 00:00:00
+b"T-Mobile (TMUS)'s estimated earnings date is August 07, 2020 at 00:00 EST\nMarket Cap: $130,841,848,162\nP/E: 25.97"
 TCEHY
-456.68
-1.30
+68.33000183105469
 None
 BABA
-282.45
-1.60
-{'Valuation': 'Undervalued', 'Discount': 0.56, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 176.37, 'Resistance': 255.91, 'Stop Loss': 232.737016}
+250.86000061035156
+2020-08-13 16:30:00
+b"Alibaba (BABA)'s estimated earnings date is August 13, 2020 at 16:30 EST\nMarket Cap: $5,383,902,143,899\nP/E: 31.45"
 BIDU
-143.67
-2.00
-{'Valuation': 'Overvalued', 'Discount': -0.36, 'Short Term Outlook': -3, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 115.87, 'Resistance': 128.07, 'Stop Loss': 113.297912}
+115.86000061035156
+2020-08-17 14:59:00
+b"Baidu (BIDU)'s estimated earnings date is August 17, 2020 at 14:59 EST\nMarket Cap: $39,872,674,668\nP/E: 122.1"
 JD
-65.34
-1.80
-{'Valuation': 'Overvalued', 'Discount': 0.07, 'Short Term Outlook': -4, 'Mid Term Outlook': -2, 'Long Term Outlook': 2, 'Support': 30.761, 'Resistance': 60.965, 'Stop Loss': 53.798851}
-VIPS
-20.77
-1.90
-{'Valuation': 'Overvalued', 'Discount': -0.12, 'Short Term Outlook': -4, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 7.9, 'Resistance': 21.03, 'Stop Loss': 18.865951}
-QQQ
+62.779998779296875
 None
-6
+VIPS
+21.549999237060547
+2020-08-12 14:59:00
+b"\xe5\x94\xaf\xe5\x93\x81\xe4\xbc\x9a (VIPS)'s estimated earnings date is August 12, 2020 at 14:59 EST\nMarket Cap: $14,490,648,331\nP/E: 26.79"
+QQQ
+260.1199951171875
 None
 
 Petroleum
 XOM
-47.23
-3.10
-{'Valuation': 'Near Fair Value', 'Discount': 0.03, 'Short Term Outlook': 3, 'Mid Term Outlook': -1, 'Long Term Outlook': -1, 'Support': 43.41, 'Resistance': 68.92, 'Stop Loss': 36.536885}
+44.06999969482422
+2020-07-31 16:30:00
+b"Exxon Mobil (XOM)'s estimated earnings date is July 31, 2020 at 16:30 EST\nMarket Cap: $186,337,213,409\nP/E: 16.54"
 VLO
-72.72
-1.90
-{'Valuation': 'Near Fair Value', 'Discount': 0.03, 'Short Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 56.27, 'Resistance': 84.3, 'Stop Loss': 44.588465}
+58.029998779296875
+2020-07-30 16:30:00
+b"Valero Energy (VLO)'s estimated earnings date is July 30, 2020 at 16:30 EST\nMarket Cap: $23,658,772,472\nP/E: 58.97"
 CVX
-100.14
-2.20
-{'Valuation': 'Overvalued', 'Discount': -0.25, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 88.78, 'Resistance': 117.49, 'Stop Loss': 83.457803}
+91.04000091552734
+2020-07-31 16:30:00
+b"Chevron (CVX)'s estimated earnings date is July 31, 2020 at 16:30 EST\nMarket Cap: $169,969,769,869\nP/E: 45.09"
 RDS-B
-43.5
-2.20
-{'Valuation': 'Undervalued', 'Discount': 0.15, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 57.31, 'Resistance': 64.9, 'Stop Loss': 58.038052}
+30.760000228881836
+None
 EPD
-24.43
-1.70
-{'Valuation': 'Undervalued', 'Discount': 0.23, 'Short Term Outlook': 4, 'Mid Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 17.39, 'Resistance': 28.825, 'Stop Loss': 16.348452}
+18.110000610351562
+2020-07-29 16:30:00
+b"Enterprise Products (EPD)'s estimated earnings date is July 29, 2020 at 16:30 EST\nMarket Cap: $39,586,577,894\nP/E: 8.59"
 PSX
-84.11
-1.80
-{'Valuation': 'Undervalued', 'Discount': 0.17, 'Short Term Outlook': 1, 'Mid Term Outlook': -1, 'Long Term Outlook': -2, 'Support': 59.39, 'Resistance': 118.51, 'Stop Loss': 56.139729}
+64.58999633789062
+2020-07-31 16:30:00
+b"Phillips 66 (PSX)'s estimated earnings date is July 31, 2020 at 16:30 EST\nMarket Cap: $28,204,836,650\nP/E: 93.42"
 BP
-31.09
-2.20
-{'Valuation': 'Undervalued', 'Discount': 0.33, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 22.9883, 'Resistance': 23.255, 'Stop Loss': 21.094192}
+23.139999389648438
+None
 CEO
-136.69
-1.00
-{'Valuation': 'Undervalued', 'Discount': 0.81, 'Short Term Outlook': -3, 'Mid Term Outlook': -2, 'Long Term Outlook': -3, 'Support': 108.82, 'Resistance': 113.06, 'Stop Loss': 104.037278}
+112.41999816894531
+None
 PBA
-41.93
-2.00
-{'Valuation': 'Undervalued', 'Discount': 0.39, 'Short Term Outlook': 4, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 24.55, 'Resistance': 35.46, 'Stop Loss': 22.89067}
+24.799999237060547
+None
 ENB
-41.66
-2.30
-{'Valuation': 'Near Fair Value', 'Discount': 0.02, 'Short Term Outlook': 4, 'Mid Term Outlook': -2, 'Long Term Outlook': -2, 'Support': 30.67, 'Resistance': 36.7, 'Stop Loss': 29.49899}
+31.309999465942383
+None
 SU
-42.83
-2.00
-{'Valuation': 'Overvalued', 'Discount': -0.21, 'Short Term Outlook': 4, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 16.98, 'Resistance': 32.125, 'Stop Loss': 14.780806}
+16.850000381469727
+None
 
 Banking
 JPM
-113.88
-2.30
-{'Valuation': 'Undervalued', 'Discount': 0.16, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 98.435, 'Resistance': 109.84, 'Stop Loss': 90.41522}
+96.9000015258789
+2020-10-13 16:30:00
+b"JPMorgan Chase (JPM)'s estimated earnings date is October 13, 2020 at 16:30 EST\nMarket Cap: $295,256,436,449\nP/E: 13.06"
 BAC
-28.57
-2.30
-{'Valuation': 'Undervalued', 'Discount': 0.19, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 24.01, 'Resistance': 27.87, 'Stop Loss': 21.189867}
+24.139999389648438
+2020-10-14 10:45:00
+b"Bank of America (BAC)'s estimated earnings date is October 14, 2020 at 10:45 EST\nMarket Cap: $209,429,244,244\nP/E: 11.6"
 WFC
-29.59
-3.00
-{'Valuation': 'Undervalued', 'Discount': 0.21, 'Short Term Outlook': 4, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 26.3, 'Resistance': 47.8535, 'Stop Loss': 23.15958}
+25.489999771118164
+2020-10-14 16:30:00
+b"Wells Fargo (WFC)'s estimated earnings date is October 14, 2020 at 16:30 EST\nMarket Cap: $105,007,532,477\nP/E: 29.13"
 C
-69.46
-1.90
-{'Valuation': 'Undervalued', 'Discount': 0.09, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': -2, 'Support': 50.24, 'Resistance': 64.335, 'Stop Loss': 45.225694}
+51.290000915527344
+2020-10-13 16:30:00
+b"Citibank (C)'s estimated earnings date is October 13, 2020 at 16:30 EST\nMarket Cap: $106,775,882,935\nP/E: 8.88"
 AXP
-104.0
-2.60
-{'Valuation': 'Undervalued', 'Discount': 0.27, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 93.43, 'Resistance': 118.22, 'Stop Loss': 88.301674}
+95.79000091552734
+2020-10-16 16:30:00
+b"American Express (AXP)'s estimated earnings date is October 16, 2020 at 16:30 EST\nMarket Cap: $77,108,211,142\nP/E: 14.51"
 DFS
-58.53
-2.30
-{'Valuation': 'Undervalued', 'Discount': 0.41, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 39.16, 'Resistance': 76.45, 'Stop Loss': 45.304467}
+51.7599983215332
+2020-10-21 00:00:00
+b"Discover (DFS)'s estimated earnings date is October 21, 2020 at 00:00 EST\nMarket Cap: $15,854,128,893\nP/E: 16.3"
 BCS
-6.9
-1.00
-{'Valuation': 'Undervalued', 'Discount': 0.07, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 5.785, 'Resistance': 8.7622, 'Stop Loss': 5.291164}
+5.690000057220459
+None
 AIG
-37.64
-2.60
-{'Valuation': 'Near Fair Value', 'Discount': -0.04, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': -1, 'Support': 23.3, 'Resistance': 52.67, 'Stop Loss': 28.446648}
+30.850000381469727
+2020-08-04 00:00:00
+b"AIG (AIG)'s estimated earnings date is August 04, 2020 at 00:00 EST\nMarket Cap: $26,570,815,338\nP/E: 6.2"
 UNH
-342.96
-1.80
-{'Valuation': 'Near Fair Value', 'Discount': 0.07, 'Short Term Outlook': 2, 'Mid Term Outlook': 1, 'Long Term Outlook': 2, 'Support': 246.24, 'Resistance': 303.48, 'Stop Loss': 283.359666}
+298.6000061035156
+2020-10-13 16:30:00
+b"UnitedHealth Group (UNH)'s estimated earnings date is October 13, 2020 at 16:30 EST\nMarket Cap: $283,186,273,788\nP/E: 16.79"
 
 Investment
 GS
-245.16
-2.20
-{'Valuation': 'Undervalued', 'Discount': 0.14, 'Short Term Outlook': -2, 'Mid Term Outlook': 2, 'Long Term Outlook': -2, 'Support': 197.35, 'Resistance': 206.05, 'Stop Loss': 187.131968}
+203.02000427246094
+2020-10-13 16:30:00
+b"Goldman Sachs (GS)'s estimated earnings date is October 13, 2020 at 16:30 EST\nMarket Cap: $69,815,838,699\nP/E: 10.77"
 MS
-57.56
-2.10
-{'Valuation': 'Undervalued', 'Discount': 0.22, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 42.61, 'Resistance': 50.6, 'Stop Loss': 45.81647}
+51.31999969482422
+2020-10-15 16:30:00
+b"Morgan Stanley (MS)'s estimated earnings date is October 15, 2020 at 16:30 EST\nMarket Cap: $80,862,665,439\nP/E: 9.27"
 CS
-13.86
-2.00
-{'Valuation': 'Undervalued', 'Discount': 0.61, 'Short Term Outlook': -2, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 10.565, 'Resistance': 12.005, 'Stop Loss': 9.754088}
-UBS
-14.27
-1.50
-{'Valuation': 'Undervalued', 'Discount': 0.32, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 11.945, 'Resistance': 12.1992, 'Stop Loss': 11.297833}
-BRK-A
-335000.0
-2.50
-{'Valuation': 'Near Fair Value', 'Discount': -0.05, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': 287485, 'Resistance': 309750, 'Stop Loss': 272598.496558}
-FRT
-95.69
-2.30
-{'Valuation': 'Overvalued', 'Discount': -0.14, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 70.92, 'Resistance': 131.285, 'Stop Loss': 68.086427}
-SEQUX
+10.630000114440918
 None
-6
+UBS
+12.300000190734863
+None
+BRK-A
+288107.0
+None
+FRT
+73.62999725341797
+2020-08-06 00:00:00
+b"Federal Realty Investment Trust (FRT)'s estimated earnings date is August 06, 2020 at 00:00 EST\nMarket Cap: $5,568,857,582\nP/E: 16.29"
+SEQUX
+nan
 None
 BX
-61.08
-2.20
-{'Valuation': 'Near Fair Value', 'Discount': -0.02, 'Short Term Outlook': 4, 'Mid Term Outlook': 4, 'Long Term Outlook': 2, 'Support': 52.82, 'Resistance': 56.69, 'Stop Loss': 52.561262}
+55.25
+2020-10-21 16:30:00
+b"The Blackstone Group (BX)'s estimated earnings date is October 21, 2020 at 16:30 EST\nMarket Cap: $66,438,622,250\nP/E: 72.86"
 CG
-30.36
-2.60
-{'Valuation': 'Near Fair Value', 'Discount': -0.07, 'Short Term Outlook': 3, 'Mid Term Outlook': 4, 'Long Term Outlook': 3, 'Support': 18.93, 'Resistance': 29.33, 'Stop Loss': 26.130129}
+29.149999618530273
+2020-07-30 16:30:00
+b"The Carlyle Group (CG)'s estimated earnings date is July 30, 2020 at 16:30 EST\nMarket Cap: $10,154,655,972\nP/E: #N/A"
 KKR
-38.29
-1.90
-{'Valuation': 'Overvalued', 'Discount': None, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 23.87, 'Resistance': 35.62, 'Stop Loss': 32.206716}
+35.20000076293945
+2020-08-04 16:30:00
+b"KKR (KKR)'s estimated earnings date is August 04, 2020 at 16:30 EST\nMarket Cap: $29,748,200,004\nP/E: #N/A"
 APO
-53.38
-2.40
-{'Valuation': 'Overvalued', 'Discount': -0.08, 'Short Term Outlook': 4, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 29.3399, 'Resistance': 52.82, 'Stop Loss': 44.495726}
+52.130001068115234
+2020-07-30 16:30:00
+b"Apollo Global Management (APO)'s estimated earnings date is July 30, 2020 at 16:30 EST\nMarket Cap: $23,000,872,053\nP/E: #N/A"
 
 Delivery
 UPS
-108.48
-2.50
-{'Valuation': 'Near Fair Value', 'Discount': -0.02, 'Short Term Outlook': -4, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 115.73, 'Resistance': 118.24, 'Stop Loss': 111.967825}
+121.01000213623047
+2020-07-30 16:30:00
+b"UPS (UPS)'s estimated earnings date is July 30, 2020 at 16:30 EST\nMarket Cap: $85,205,199,674\nP/E: 24.51"
 FDX
-170.96
-2.20
-{'Valuation': 'Overvalued', 'Discount': -0.24, 'Short Term Outlook': 1, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 158.34, 'Resistance': 174.2295, 'Stop Loss': 148.181106}
+170.63999938964844
+2020-09-16 00:00:00
+b"FedEx (FDX)'s estimated earnings date is September 16, 2020 at 00:00 EST\nMarket Cap: $44,699,830,400\nP/E: 34.82"
 
 Pharmaceutical
 PFE
-40.25
-2.50
-{'Valuation': 'Overvalued', 'Discount': -0.17, 'Short Term Outlook': -2, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 36.285, 'Resistance': 43.04, 'Stop Loss': 33.69993}
+37.540000915527344
+2020-07-28 16:30:00
+b"Pfizer (\xe8\xbe\x89\xe7\x91\x9e) (PFE)'s estimated earnings date is July 28, 2020 at 16:30 EST\nMarket Cap: $208,528,398,365\nP/E: 13.43"
 MRK
-93.0
-2.00
-{'Valuation': 'Near Fair Value', 'Discount': 0.04, 'Short Term Outlook': -2, 'Mid Term Outlook': -2, 'Support': 77.06, 'Resistance': 82.72, 'Stop Loss': 74.615207}
+78.93000030517578
+2020-07-31 16:30:00
+b"Merck (MRK)'s estimated earnings date is July 31, 2020 at 16:30 EST\nMarket Cap: $199,227,292,700\nP/E: 19.96"
 AMGN
-258.21
-2.20
-{'Valuation': 'Overvalued', 'Discount': -0.07, 'Short Term Outlook': -2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 202.5, 'Resistance': 253.9, 'Stop Loss': 232.315587}
+253.64999389648438
+2020-07-29 00:00:00
+b"Amgen (AMGN)'s estimated earnings date is July 29, 2020 at 00:00 EST\nMarket Cap: $149,208,847,959\nP/E: 19.87"
 JNJ
-166.06
-1.90
-{'Valuation': 'Overvalued', 'Discount': -0.1, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 139.89, 'Resistance': 150.57, 'Stop Loss': 143.4831}
+147.17999267578125
+2020-10-13 16:30:00
+b"Johnson & Johnson (JNJ)'s estimated earnings date is October 13, 2020 at 16:30 EST\nMarket Cap: $387,759,672,803\nP/E: 25.88"
 ILMN
-343.86
-2.30
-{'Valuation': 'Overvalued', 'Discount': 0.06, 'Short Term Outlook': -2, 'Mid Term Outlook': 3, 'Long Term Outlook': 2, 'Support': 300.86, 'Resistance': 402.14, 'Stop Loss': 364.138444}
+393.0400085449219
+2020-07-28 10:00:00
+b"Illumina (ILMN)'s estimated earnings date is July 28, 2020 at 10:00 EST\nMarket Cap: $57,776,881,256\nP/E: 61.99"
+("*** b'Illumina (ILMN)' event added: \n"
+ '\t\tStart: 2020-07-28 10:00:00\n'
+ '\t\tEnd:   2020-07-28 11:00:00')
 BMY
-71.36
-1.90
-{'Valuation': 'Near Fair Value', 'Discount': -0.02, 'Short Term Outlook': 3, 'Mid Term Outlook': -1, 'Long Term Outlook': 2, 'Support': 50.43, 'Resistance': 60.725, 'Stop Loss': 56.806736}
+58.04999923706055
+2020-08-06 16:30:00
+b" (BMY)'s estimated earnings date is August 06, 2020 at 16:30 EST\nMarket Cap: $131,349,094,723\nP/E: 71.75"
 
 Machine
 CAT
-133.55
-2.50
-{'Valuation': 'Undervalued', 'Discount': 0.88, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 132.22, 'Resistance': 140.22, 'Stop Loss': 126.663353}
+139.88999938964844
+2020-07-31 10:30:00
+b"Caterpillar (CAT)'s estimated earnings date is July 31, 2020 at 10:30 EST\nMarket Cap: $75,713,923,379\nP/E: 14.82"
 
 Arms
 LMT
-434.26
-2.10
-{'Valuation': 'Undervalued', 'Discount': 0.43, 'Short Term Outlook': 1, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 384.1, 'Resistance': 393.4284, 'Stop Loss': 347.108037}
+382.0899963378906
+2020-10-20 16:30:00
+b"Lockheed Martin (LMT)'s estimated earnings date is October 20, 2020 at 16:30 EST\nMarket Cap: $106,810,201,756\nP/E: 16.74"
 RTX
-76.56
-2.00
-{'Valuation': 'Near Fair Value', 'Discount': 0.08, 'Short Term Outlook': 4, 'Mid Term Outlook': 2, 'Long Term Outlook': -1, 'Support': 60.09, 'Resistance': 82.48974, 'Stop Loss': 55.597094}
+61.09000015258789
+2020-07-28 16:30:00
+b"Raytheon (RTX)'s estimated earnings date is July 28, 2020 at 16:30 EST\nMarket Cap: $92,628,812,351\nP/E: 12.86"
 NOC
-391.06
-1.90
-{'Valuation': 'Near Fair Value', 'Discount': -0.03, 'Short Term Outlook': 4, 'Mid Term Outlook': -2, 'Long Term Outlook': -2, 'Support': 308.04, 'Resistance': 367.3532, 'Stop Loss': 275.725571}
+308.0199890136719
+2020-07-30 16:30:00
+b"Northrop Grumman (NOC)'s estimated earnings date is July 30, 2020 at 16:30 EST\nMarket Cap: $51,347,856,228\nP/E: 23.21"
 
 Construction
 LEN
-71.8
-2.30
-{'Valuation': 'Undervalued', 'Discount': 0.45, 'Short Term Outlook': 2, 'Mid Term Outlook': 4, 'Long Term Outlook': 3, 'Support': 52.1099, 'Resistance': 70.36, 'Stop Loss': 58.387833}
+73.02999877929688
+2020-09-30 16:30:00
+b"Lennar (LEN)'s estimated earnings date is September 30, 2020 at 16:30 EST\nMarket Cap: $22,111,270,821\nP/E: 10.97"
 TPH
-17.21
-2.70
-{'Valuation': 'Undervalued', 'Discount': 0.13, 'Short Term Outlook': 3, 'Mid Term Outlook': 2, 'Long Term Outlook': 3, 'Support': 15.82, 'Resistance': 17.21, 'Stop Loss': 13.260815}
+17.719999313354492
+2020-10-29 16:30:00
+b"TRI Pointe Group (Pardee Homes) (TPH)'s estimated earnings date is October 29, 2020 at 16:30 EST\nMarket Cap: $2,307,799,550\nP/E: 10.35"
 
 Others
 MMM
-158.8
-3.20
-{'Valuation': 'Overvalued', 'Discount': -0.13, 'Short Term Outlook': 3, 'Mid Term Outlook': 2, 'Long Term Outlook': 2, 'Support': 156.84, 'Resistance': 160, 'Stop Loss': 149.315901}
+163.24000549316406
+2020-07-28 16:30:00
+b"3M Company (MMM)'s estimated earnings date is July 28, 2020 at 16:30 EST\nMarket Cap: $93,894,998,199\nP/E: 19.15"
 TRV
-119.53
-2.70
-{'Valuation': 'Undervalued', 'Discount': 0.2, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -3, 'Support': 114.66, 'Resistance': 135.52, 'Stop Loss': 112.000579}
+116.62999725341797
+2020-10-20 16:30:00
+b"The Travelers Companies (TRV)'s estimated earnings date is October 20, 2020 at 16:30 EST\nMarket Cap: $29,529,665,634\nP/E: 16.64"
 PG
-130.01
-2.20
-{'Valuation': 'Overvalued', 'Discount': -0.27, 'Short Term Outlook': 2, 'Mid Term Outlook': 3, 'Long Term Outlook': 3, 'Support': 125, 'Resistance': 126.35, 'Stop Loss': 118.873706}
+126.31999969482422
+2020-07-30 16:30:00
+b"The Procter & Gamble Company (PG)'s estimated earnings date is July 30, 2020 at 16:30 EST\nMarket Cap: $312,723,223,004\nP/E: 66.98"
 DOW
-40.9
-2.70
-{'Valuation': 'Overvalued', 'Discount': -0.22, 'Short Term Outlook': 3, 'Mid Term Outlook': 3, 'Long Term Outlook': -2, 'Support': None, 'Resistance': None, 'Stop Loss': 38.716919}
+44.0
+2020-10-22 16:30:00
+b"Dow Inc. (DOW)'s estimated earnings date is October 22, 2020 at 16:30 EST\nMarket Cap: $32,609,324,000\nP/E: #N/A"
 
