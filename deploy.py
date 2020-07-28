@@ -12,10 +12,10 @@ def package(dirname):
 	shutil.make_archive(name, 'zip', dirname)
 	
 
-def deploy(filename):
-	# Update pip
-	#cmd = "python -m pip install --upgrade pip"
-	#os.system(cmd)
+def deploy(filename, options=["--upgrade", "--quiet"]):
+	opt = ""
+	for option in options:
+		opt += " " + option
 
 	path, name = os.path.split(filename)
 	#print(path)
@@ -26,20 +26,33 @@ def deploy(filename):
 	txt = f.read()
 	#print(txt)
 	
-	pattern = "^pip install (?P<lib>[\S ]+)\n"
-	libs = re.findall(pattern, txt, re.MULTILINE)
-	#print(libs)
+	pattern = "^pip install (?P<modules>[\S ]+)\n"
+	result = re.findall(pattern, txt, re.MULTILINE)
+	#print(result)
 	
-	libs = set(libs)
+	libs = set()
+	for modules in result:
+		modules = modules.split()
+		for module in modules:
+			libs.add(module)
+	
 	#print(libs)
 	for lib in libs:
-		cmd = "pip install " + lib + " --target " + path + " --upgrade --quiet"
+		#cmd = "pip install " + lib + " --target " + path + " --upgrade --quiet"
+		cmd = "pip install " + lib + opt
 		print(cmd)
 		os.system(cmd);
 		
 	#package(path)
 	return
 	
+def install_pip():
+	cmd = "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py"
+	os.system(cmd)
+	cmd = "python get-pip.py"
+	os.system(cmd)
+	
 if __name__ == "__main__":
+	install_pip()
 	fname = sys.argv[1]
 	deploy(fname)
