@@ -14,8 +14,8 @@ def package(dirname):
 
 def deploy(filename):
 	# Update pip
-	cmd = "python -m pip install --upgrade pip"
-	os.system(cmd)
+	#cmd = "python -m pip install --upgrade pip"
+	#os.system(cmd)
 
 	path, name = os.path.split(filename)
 	#print(path)
