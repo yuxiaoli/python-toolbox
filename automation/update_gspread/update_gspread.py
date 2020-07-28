@@ -140,7 +140,7 @@ def update_weekly(gspread, calendar):
 			marketcap = gspread.getCell(4, get_col_num(col))
 			pe = gspread.getCell(5, get_col_num(col))
 			discription = create_event_discription(company_name, next_earnings_date, marketcap, pe)
-			print(discription)
+			print(discription.encode("utf-8"))
 			
 			cell_value = gspread.getCell(23, get_col_num(col))
 			if (cell_value):
