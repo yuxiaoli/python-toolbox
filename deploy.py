@@ -22,11 +22,11 @@ def deploy(filename):
 	#print(name)
 	
 
-	f = open(filename, 'r')
+	f = open(filename, 'r', encoding="utf8")
 	txt = f.read()
 	#print(txt)
 	
-	pattern = "^pip install (?P<lib>\S+)\n"
+	pattern = "^pip install (?P<lib>[\S ]+)\n"
 	libs = re.findall(pattern, txt, re.MULTILINE)
 	#print(libs)
 	
