@@ -39,7 +39,7 @@ def deploy(filename, options=["--upgrade", "--quiet"]):
 	#print(libs)
 	for lib in libs:
 		#cmd = "pip install " + lib + " --target " + path + " --upgrade --quiet"
-		cmd = "pip install " + lib + opt
+		cmd = "pip3 install " + lib + opt
 		print(cmd)
 		os.system(cmd);
 		
