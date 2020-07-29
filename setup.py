@@ -13,5 +13,6 @@ def install(filename='.'):
 		
 
 if __name__ == "__main__":
+	install_pip()
 	install()
 	
