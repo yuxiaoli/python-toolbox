@@ -4,6 +4,9 @@ if sys.hexversion > 0x03000000:
 	import winreg
 else:
 	import _winreg as winreg
+'''
+pip install pywin32
+'''
 import win32gui, win32con, os
 
 
@@ -13,20 +16,20 @@ def cleanup_path(path, separator):
 
 	# remove items from a list while iterating
 	for index in reversed(xrange(len(item_list))):
-		# print index
-		# print item_list[index]
+		# print(index)
+		# print(item_list[index])
 		if not item_list[index]:
 			del item_list[index]
 		elif item_list[index][-1] == '\\':
 			item_list[index] = item_list[index][:-1]
-			# print item_list[index]
+			# print(item_list[index])
 
 	item_set = set(item_list)	# removes any duplicate
 	item_list[:] = []	# it's assigning to a list slice that just happens to be the entire list, thereby replacing the list contents within the same Python list object, rather than just reseating one reference
 	# if your list is accessed via multiple references the fact that you're just reseating one of the references and NOT altering the list object itself can lead to subtle, disastrous bugs
 	for item in item_set:
-		# print item
-		# print os.path.exists(item)
+		# print(item)
+		# print(os.path.exists(item))
 		if os.path.exists(item):	# check existence
 			item_list.append(item)
 
@@ -39,7 +42,7 @@ def cleanup_path(path, separator):
 class Win32Environment:
 	def __init__(self, scope):
 		if scope not in ('user', 'system'):
-			print "error: unknown scope"
+			print("error: unknown scope")
 			sys.exit(1)
 
 		self.scope = scope
@@ -56,12 +59,12 @@ class Win32Environment:
 			try:
 				value, type_id = winreg.QueryValueEx(key, name)
 			except WindowsError:
-				print "error: key not found"
+				print("error: key not found")
 				value = ''
 			winreg.CloseKey(key)
-		except Exception, e:
-			print "error: winreg can't open"
-			print e
+		except Exception as e:
+			print("error: winreg can't open")
+			print(e)
 
 		return value
 
@@ -70,18 +73,18 @@ class Win32Environment:
 			# note: for 'system' scope, you must run this as Administrator
 			key = winreg.OpenKey(self.root, self.path, 0, winreg.KEY_ALL_ACCESS)
 			if not value:
-				print "warning: setting value to be null"
+				print("warning: setting value to be null")
 			# to do - write the old value to a system log with time before set for safety reasons
 			try:
 				winreg.SetValueEx(key, name, 0, winreg.REG_EXPAND_SZ, value)
 			except WindowsError:
-				print "error: set failed"
+				print("error: set failed")
 				
 			winreg.CloseKey(key)
 			# broadcast all the gui processes, most currently opening processes would ignore the broadcast without handling
 			win32gui.SendMessage(win32con.HWND_BROADCAST, win32con.WM_SETTINGCHANGE, 0, 'Environment')
-		except Exception, e:
-			print e
+		except Exception as e:
+			print(e)
 
 
 	def delenv(self, name):
@@ -91,11 +94,11 @@ class Win32Environment:
 			try:
 				winreg.DeleteValue(key, name)
 			except WindowsError:
-				print "error: delete failed"
+				print("error: delete failed")
 			winreg.CloseKey(key)
 			win32gui.SendMessage(win32con.HWND_BROADCAST, win32con.WM_SETTINGCHANGE, 0, 'Environment')
-		except Exception, e:
-			print e
+		except Exception as e:
+			print(e)
 
 
 
@@ -129,14 +132,14 @@ def main():
 		
 	else:
 		var_value = env_reg.getenv(args.var_name)
-		print '{0} = {1}'.format(args.var_name, var_value)
+		print('{0} = {1}'.format(args.var_name, var_value))
 		if args.cleanup:
 			if args.var_name.upper() == "PATH":
 				var_value = cleanup_path(var_value, os.pathsep)
-				# print var_value
+				# print(var_value)
 				env_reg.setenv(args.var_name, var_value)
 			else:
-				print "can only cleanup path"
+				print("can only cleanup path")
 				# sys.exit(0)
 
 if __name__ == "__main__":
