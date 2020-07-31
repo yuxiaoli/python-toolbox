@@ -17,6 +17,8 @@ from googleapiclient.discovery import build
 import io
 from googleapiclient.http import MediaIoBaseDownload
 
+from urllib.error import HTTPError
+
 class GSpread:
 	'''
 	"Quota exceeded for quota group 'WriteGroup' 
@@ -33,7 +35,7 @@ class GSpread:
 	
 	def login(self, filename):
 		# use creds to create a client to interact with the Google Drive API
-		scopes = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
+		scopes = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
 		try:
 			creds = ServiceAccountCredentials.from_json_keyfile_name(filename, scopes)
 			self.client = gspread.authorize(creds)
@@ -187,6 +189,52 @@ class GDrive:
 			status, done = downloader.next_chunk()
 			print("Download %d%%." % int(status.progress() * 100))
 
+
+
+class GMail:
+	def __init__(self, filename):
+		self.login(filename)
+		
+	def login(self, filename):
+		# https://developers.google.com/gmail/api/auth/scopes
+		scopes = ['https://mail.google.com/', 'https://www.googleapis.com/auth/gmail.send', 'https://www.googleapis.com/auth/gmail.readonly', 'https://www.googleapis.com/auth/gmail.compose', 'https://www.googleapis.com/auth/gmail.modify']
+		try:
+			credentials = ServiceAccountCredentials.from_json_keyfile_name(filename, scopes)
+			http_auth = credentials.authorize(Http())
+			self.service = build('gmail', 'v1', http=http_auth)
+			
+		except:
+			print("Login failed")
+			return
+
+		# Call the Gmail API
+		results = self.service.users().labels().list(userId='me').execute()
+		labels = results.get('labels', [])
+
+		if not labels:
+			print('No labels found.')
+		else:
+			print('Labels:')
+			for label in labels:
+				print(label['name'])
+
+	def send(self, message, user_id="me"):
+		"""Send an email message.
+		
+		Args:
+		user_id: User's email address. The special value "me"
+		can be used to indicate the authenticated user.
+		message: Message to be sent.
+
+		Returns:
+		Sent Message.
+		"""
+		try:
+			message = (self.service.users().messages().send(userId="yuxiaoli.bot@gmail.com", body=message).execute())
+			print('Message Id: %s' % message['id'])
+			return message
+		except HTTPError as error:
+			print('An error occurred: %s' % error)
 
 
 if __name__ == "__main__":
