@@ -137,6 +137,8 @@ def update_weekly(gspread, calendar):
 			next_earnings_date_str = next_earnings_date.replace(microsecond=0).isoformat(' ')
 			
 			company_name = gspread.getCell(2, get_col_num(col)) + " (" + ticker + ")"
+			timestamp = next_earnings_date_str
+			summary = company_name + " " + timestamp # Concatenate timestamp to make it unique
 			marketcap = gspread.getCell(4, get_col_num(col))
 			pe = gspread.getCell(5, get_col_num(col))
 			discription = create_event_discription(company_name, next_earnings_date, marketcap, pe)
@@ -150,7 +152,7 @@ def update_weekly(gspread, calendar):
 					
 				if (is_future_datetime(cell_value)):
 					# Delete event in calendar
-					event_id = calendar.findEvent(calendar_id, company_name)
+					event_id = calendar.findEvent(calendar_id, summary)
 					calendar.deleteEvent(calendar_id, event_id)
 				else:
 					gspread.updateCell(22, get_col_num(col), cell_value)
@@ -160,7 +162,7 @@ def update_weekly(gspread, calendar):
 			# Create event in calendar
 			calendar.createEvent(calendar_id,
 							next_earnings_date.isoformat(),
-							company_name,
+							summary,
 							1,
 							discription,
 							"",

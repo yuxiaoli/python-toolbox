@@ -1,3 +1,10 @@
+'''
+https://myaccount.google.com/lesssecureapps
+https://accounts.google.com/b/0/DisplayUnlockCaptcha
+
+https://stackoverflow.com/questions/33233694/gmail-api-can-i-send-email-using-the-service-account
+You cannot use a service account to impersonate a free gmail account. I spent a lot of time confirming this after reading a reply that was here before. Maybe it worked at some point, but it doesn't anymore.
+'''
 # Import smtplib for the actual sending function
 import smtplib
 #import ssl
