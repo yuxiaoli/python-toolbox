@@ -69,7 +69,7 @@ def create_message(sender, to, subject, body, attachments=[]):
 		# Add header as key/value pair to attachment part
 		part.add_header(
 			"Content-Disposition",
-			f"attachment; filename= {filename}",
+			f"attachment; filename= {filename}"
 		)
 		
 		# Add attachment to message and convert message to string
