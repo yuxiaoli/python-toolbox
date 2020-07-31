@@ -14,13 +14,13 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email import encoders
 import os.path
-
+'''
 import sys
 sys.path.append('..')
 from gdrive.gdrive import GMail
 import mimetypes
 import base64
-
+'''
 #import yagmail
 
 def setup_server(port = 465):
@@ -99,7 +99,7 @@ def send_email(address, subject, body, attachments=[]):
 	server.quit()
 	
 	print('Mail sent')
-
+'''
 def create_message_with_attachment(sender, to, subject, message_text, file):
 	"""Create a message for an email.
 
@@ -120,7 +120,7 @@ def create_message_with_attachment(sender, to, subject, message_text, file):
 
 	msg = MIMEText(message_text)
 	message.attach(msg)
-	'''
+	
 	content_type, encoding = mimetypes.guess_type(file)
 
 	if content_type is None or encoding is not None:
@@ -146,21 +146,21 @@ def create_message_with_attachment(sender, to, subject, message_text, file):
 		filename = os.path.basename(file)
 		msg.add_header('Content-Disposition', 'attachment', filename=filename)
 		message.attach(msg)
-	'''
+	
 	return {'raw': base64.urlsafe_b64encode(message.as_string().encode("utf-8")).decode()}
 	
 def send_gmail(sender, to, subject, message_text, file, private_key_file):
 	gmail_server = GMail(private_key_file)
 	message = create_message_with_attachment(sender, to, subject, message_text, file)
 	gmail_server.send(message)
-
+'''
 def main():
 	receivers = ["yuxiaoli.qualcomm@gmail.com", "sean.li@cimoninc.com"]
 	subject = u"你好"
 	body = "hello, world"
 	attachments = ["attachment.txt"]
 	
-	send_email(receivers, subject, body, attachments)
+	send_email(receivers, subject, body)#, attachments)
 	
 	'''
 	yag_server = yagmail.SMTP("yuxiaoli.bot@gmail.com", "automatic")
