@@ -23,7 +23,7 @@ import base64
 '''
 #import yagmail
 
-def setup_server(port = 587):
+def setup_server(port = 465):
 	smtp_server = "smtp.gmail.com"
 	# Create a secure SSL context
 	#context = ssl.create_default_context()
