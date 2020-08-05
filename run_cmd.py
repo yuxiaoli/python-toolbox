@@ -2,7 +2,7 @@ import subprocess
 #import shlex
 import sys
 import datetime
-from python-toolbox.aws.ses_send_email import send_email
+from python_toolbox.aws.ses_send_email import send_email
 import socket
 
 def create_email(ret, cmd, stdout, stderr, start, end):

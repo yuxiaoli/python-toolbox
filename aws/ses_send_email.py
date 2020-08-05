@@ -4,7 +4,7 @@ pip install boto3
 import boto3
 from botocore.exceptions import ClientError
 
-from python-toolbox.productivity.email.send_email import create_message
+from python_toolbox.productivity.email.send_email import create_message
 
 def send_text_email(address, subject, body, region="us-west-2"):
 	# Replace sender@example.com with your "From" address.
