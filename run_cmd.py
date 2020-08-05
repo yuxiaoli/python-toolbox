@@ -2,7 +2,7 @@ import subprocess
 #import shlex
 import sys
 import datetime
-from productivity.email.send_email import send_email
+from python_toolbox.aws.ses_send_email import send_email
 import socket
 
 def create_email(ret, cmd, stdout, stderr, start, end):
@@ -69,15 +69,20 @@ def process_result(result, start, end):
 	to = ["seanli.cimon@gmail.com"]
 	send_email(to, subject, body, attachment)
 
-def run_script(args):
+def run_cmd(args):
 	#print(args)
 	start = datetime.datetime.now()
 	result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 	end = datetime.datetime.now()
 	
 	process_result(result, start, end)
+
+def execute(cmd):
+	args = cmd.split()
+	result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+	return result.stdout.decode('utf-8'), result.stderr.decode('utf-8')
 	
 if __name__ == "__main__":
 	args = sys.argv
 	args.pop(0)
-	run_script(args)
+	run_cmd(args)
