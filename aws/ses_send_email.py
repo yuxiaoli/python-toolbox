@@ -9,8 +9,8 @@ from python_toolbox.productivity.email.send_email import create_message
 def send_text_email(address, subject, body, region="us-west-2"):
 	# Replace sender@example.com with your "From" address.
 	# This address must be verified with Amazon SES.
-	SENDER = "Sean Li <sean.li@cimoninc.com>"
-	#SENDER = "Sean Li <yuxiaoli.bot@gmail.com>"
+	#SENDER = "Sean Li <sean.li@cimoninc.com>"
+	SENDER = "Sean Li <yuxiaoli.bot@gmail.com>"
 
 	# Replace recipient@example.com with a "To" address. If your account is still in the sandbox, this address must be verified.
 	#COMMASPACE = ', '
